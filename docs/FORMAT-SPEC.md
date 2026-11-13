@@ -20,19 +20,9 @@ c. gen.	marker	governs the genitive case	+ sở hữu cách	ML/LSJ
 
 Schema giống termbase (`key,type,meaning_mod,xlate_vi,src,note`), `type` = `idiom | term | prefix`. Chứa tiếng Anh Victorian 1889 có nghĩa lệch hiện đại (wont to, betake oneself, make away with...). Khi dịch gặp từ không nằm trong decoder và không chắc nghĩa 1889 → tra chéo LSJ9/Bailly tra tay, rồi THÊM vào decoder (qua cổng duyệt), không dịch theo phán đoán.
 
-## 3. Whitelist tên riêng: `data/whitelist-names.tsv`
+## 3. Phiên âm tên riêng: `docs/TRANSLIT.md`
 
-```
-greek	name_vi	alias	register	status	note
-Σοφοκλῆς	Sôphôclês		att	chot-so-bo	giữ đuôi -es, không rút -t
-```
-
-- `greek`: headword NFC (N-P).
-- `name_vi`: đúng MỘT dạng chuẩn để in ra.
-- `alias`: dạng phụ phục vụ tra cứu, cách nhau `|`, không xuất hiện trong văn bản.
-- `register`: `att | hom | koin | att|hom` (cách nhau `|`).
-- `status`: `chot-so-bo` (chốt sơ bộ, chờ đối chiếu Phase T) | `chot` (đã đối chiếu chuẩn tham chiếu VN).
-- Mục tiêu Phase T: đối chiếu toàn bộ với từ điển nhân danh – địa danh nước ngoài và giáo trình Hy Lạp của các trường đại học VN; xung đột → báo cổng duyệt, không tự thay.
+Không còn file whitelist. Mọi tên riêng sinh từ bảng hệ thống letter-faithful trong `docs/TRANSLIT.md` (không ngoại lệ, không register). Từ P0, linter kiểm tra bằng generator: sinh dạng kỳ vọng từ headword Greek rồi so với tên dùng trong `vi_gloss`; sai khác = từ chối lô.
 
 ## 4. Lô dịch: `data/batches/<PHASE>-<cluster>.tsv`
 

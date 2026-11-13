@@ -18,16 +18,16 @@
 | D10 | Metadata nguồn? | **Bắt buộc**: mỗi sense VI mang sense-ID gốc (alignment); không có alignment thì không thể kiểm thử tự động |
 | D11 | Repo nào? | **Repo riêng mới** `graecum-lexicon`, chứa bản đầy đủ + term base + whitelist + linter + CI; satzanalyse/graecum chỉ nhận dict.js rút gọn sinh từ đây |
 | D12 | Định dạng dữ liệu? | **TSV 6 cột** cho term base/cẩm nang (schema: `docs/FORMAT-SPEC.md`), đồng phong cách hệ sinh thái, đọc được bởi người lẫn AI agent, là dữ liệu đầu vào trực tiếp của linter |
-| D13 | Phiên âm tên riêng? | **Theo register**: Koine/Kinh Thánh bám truyền thống bản Truyền Thống (Giăng, Hê-rốt...); Attic/Homer theo bảng hệ thống + whitelist `data/whitelist-names.tsv` (1 dạng chuẩn + alias phụ; Sôphôclês giữ đuôi -ês) |
+| D13 | Phiên âm tên riêng? | **SỬA ĐỔI 2026-11-13 (cuối ngày)**: phiên âm hoàn toàn theo bảng hệ thống `docs/TRANSLIT.md`, KHÔNG whitelist ngoại lệ, KHÔNG tách theo register; mọi tên (Attic, Homer, Koine) sinh từ cùng một bảng, letter-faithful, đuôi không rút gọn (-ς → s). Quyết định đầu ngày (register + whitelist) bị thay: ngoại lệ dẫn đến confusion và không kiểm thử tự động được |
 
 ## Nguyên tắc vận hành kèm theo
 
 1. **Term base là luật, không phải gợi ý**; bổ sung thuật ngữ mới chỉ qua cổng duyệt.
-2. **Whitelist-first**: AI draft không phỏng đoán tên riêng theo bảng rồi sửa ngược; tên phải nằm trong whitelist hoặc sinh đúng bảng hệ thống.
-3. **Không dịch theo alphabet**; P0/P1 dịch theo cụm tri thức (họ từ, ngành); từ P2 kèm coverage assertion (mỗi headword đúng một lô, tổng phủ 100%).
-4. **Ngoại lệ phiên âm thắng bảng hệ thống**; mỗi ngoại lệ ghi nguồn tham chiếu.
-5. Trọng âm Greek → thanh sắc; đuôi -ής → -t (Sôcrát); -ων → -ông (Platôn); -ος → -o (Dêmôxtên); whitelist ghi đè khi có ngoại lệ (Sôphôclês).
+2. **Không dịch theo alphabet**; P0/P1 dịch theo cụm tri thức (họ từ, ngành); từ P2 kèm coverage assertion (mỗi headword đúng một lô, tổng phủ 100%).
+3. **Phiên âm không có ngoại lệ**: mọi tên sinh từ `docs/TRANSLIT.md`; sai khác với dạng sinh từ bảng = lỗi linter.
+4. Trọng âm Greek → thanh sắc; mọi chữ cái được phiên âm, không rút gọn đuôi (chi tiết bảng TRANSLIT).
 
 ## Lịch sử thay đổi
 
+- 2026-11-13 (cuối ngày): **D13 bị thay thế**: bỏ whitelist ngoại lệ và bỏ tách register; phiên âm thuần hệ thống theo `docs/TRANSLIT.md`. Lý do: ngoại lệ dẫn đến confusion; chỉ hệ thống letter-faithful mới deterministic và kiểm thử tự động được.
 - 2026-11-13: chốt D1-D13 (nguyên bản theo khuyến nghị + góp ý tư vấn; D11-D13 chốt qua hỏi đáp với người sở hữu).

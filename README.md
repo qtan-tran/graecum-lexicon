@@ -16,13 +16,12 @@ Từ điển học Hy Lạp cổ – tiếng Việt: dự án dịch *An Interme
 
 ```
 graecum-lexicon/
-├── docs/                # DECISIONS (protocol D1-D13) · ROADMAP · FORMAT-SPEC · COPYRIGHT
+├── docs/                # DECISIONS (protocol D1-D13) · ROADMAP · FORMAT-SPEC · COPYRIGHT · TRANSLIT
 ├── data/
 │   ├── termbase-grammar.tsv   # term base markers ngữ pháp EN→VN (luật cứng)
 │   ├── decoder-1889.tsv       # cẩm nang dịch giả: tiếng Anh Victorian → nghĩa hiện đại → VI
-│   ├── whitelist-names.tsv    # whitelist tên riêng phiên âm (1 dạng chuẩn + alias)
 │   └── batches/               # các lô dịch P0-P3 + manifest (coverage assertion)
-└── tools/linter.py      # QA gates tự động (mã hoá, termbase, alignment, whitelist, coverage)
+└── tools/linter.py      # QA gates tự động (mã hoá, termbase, alignment, coverage)
 ```
 
 ## QA tự động
@@ -37,4 +36,4 @@ python3 tools/linter.py
 
 ## Nguyên tắc cốt lõi
 
-**Không bịa**: sense không chắc → giữ tiếng Anh trong ngoặc + tag `[chưa dịch]`, tuyệt đối không đoán. Mọi gloss truy vết được về sense-ID gốc. Quy ước biên soạn đầy đủ: `docs/DECISIONS.md` (13 quyết định đã chốt) và `docs/FORMAT-SPEC.md` (schema dữ liệu).
+**Không bịa**: sense không chắc → giữ tiếng Anh trong ngoặc + tag `[chưa dịch]`, tuyệt đối không đoán. Mọi gloss truy vết được về sense-ID gốc. Phiên âm tên riêng hoàn toàn theo bảng hệ thống `docs/TRANSLIT.md`, không có ngoại lệ. Quy ước biên soạn đầy đủ: `docs/DECISIONS.md` (13 quyết định đã chốt) và `docs/FORMAT-SPEC.md` (schema dữ liệu).

@@ -4,7 +4,7 @@ Mỗi phase chỉ mở khi phase trước qua đủ cổng QA. Trạng thái c�
 
 | Phase | Nội dung | Cổng QA để sang phase sau | Trạng thái |
 | --- | --- | --- | --- |
-| **T** | Term base (≥500 + 4 nhóm chuyên ngành) · decoder 1889 (~200) · whitelist đối chiếu chuẩn VN · linter + CI · ingest TEI nguồn → sense-ID | Cổng 1-4 chạy xanh trên seed + pilot nội bộ; whitelist đối chiếu xong | 🔄 skeleton |
+| **T** | Term base (≥500 + 4 nhóm chuyên ngành) · decoder 1889 (~200) · bảng phiên âm hệ thống (docs/TRANSLIT.md, không ngoại lệ) · linter + CI · ingest TEI nguồn → sense-ID | Cổng 1-4 chạy xanh trên seed + pilot nội bộ | 🔄 in progress |
 | **P0** | Pilot 100 từ thông dụng nhất (đủ loại: động từ đa nghĩa, danh từ chuyên ngành, tên riêng, tiểu từ) | 5 cổng QA + duyệt người sở hữu 100% | ⏸ |
 | **P1** | 1.000 từ theo cụm tri thức (5 cụm: tư duy/lời nói · chính trị/pháp lý · cho/nhận/đặt/đứng · tên riêng · tiểu từ/chuyên ngành) | 5 cổng + chỉ số nhất quán ổn định | ⏸ |
 | **P2** | 10.000 từ (cụm tri thức + phần còn lại theo tần suất, có coverage assertion) | 5 cổng + spot-check 5% + back-translate 200 sense | ⏸ |
@@ -26,4 +26,4 @@ Tỷ lệ khớp termbase · số sense `[chưa dịch]` · số cảnh báo ali
 
 ## Lịch sử
 
-- 2026-11-13: skeleton Phase T (README, LICENSE, 4 docs, 4 TSV seed, linter.py, CI). Phase T mở đầu.
+- 2026-11-13: term base + decoder build-out batch 2 (117 + 35 dòng). Phiên âm chuyển sang thuần hệ thống (docs/TRANSLIT.md), bỏ whitelist ngoại lệ (D13 sửa đổi). Phase T mở đầu.
