@@ -52,4 +52,4 @@ P0-core	P0-core.tsv	100	P0	open
 ## 6. Quy tắc ký tự (cổng 4)
 
 - NFC toàn bộ; 0 U+FFFD; 0 em dash trong nội dung; apostrophe Hy Lạp là ’ (U+2019); không CJK/Cyrillic ngoài chủ đích.
-- Greek giữ đủ dấu (accent + breathing); phiên âm chỉ là thông tin phụ trong whitelist.
+- Greek giữ đủ dấu (accent + breathing); phiên âm chỉ là thông tin phụ, sinh từ bảng docs/TRANSLIT.md.

@@ -24,7 +24,7 @@ SOFTWARE.
 
 Note: the MIT license applies to the CODE of this repository (tools/linter.py
 and build scripts). CONTENT (the Vietnamese translation of Middle Liddell
-1889, term base, decoder, whitelist and all data/ files) is licensed
+1889, term base, decoder, transliteration table and all data/ files) is licensed
 CC BY-SA 4.0: https://creativecommons.org/licenses/by-sa/4.0/
 The Vietnamese translation is a derivative work of the public-domain
 *An Intermediate Greek-English Lexicon* (1889); see docs/COPYRIGHT.md for

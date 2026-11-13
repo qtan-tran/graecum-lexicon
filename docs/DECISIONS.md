@@ -12,11 +12,11 @@
 | D4 | Markers ngữ pháp? | **Bảng thuật ngữ bắt buộc EN→VN áp dụng 100% đồng nhất** (`data/termbase-grammar.tsv`); linter từ chối lô vi phạm |
 | D5 | Ai dịch, ai kiểm? | **Hybrid theo cụm tần suất**: top-500 review tay 100%; top-5.000 review nhanh từng sense; còn lại spot-check 5% + review toàn bộ entry trúng gold set. LLM draft không bao giờ vào bản final không qua review |
 | D6 | Sense không chắc chắn? | **Không bịa**: giữ tiếng Anh trong ngoặc + tag `[chưa dịch]`. Thà để trống còn hơn dịch sai dây chuyền |
-| D7 | Tên riêng trong gloss? | Phiên âm tiếng Việt theo whitelist + Latinh quốc tế trong ngoặc ở lần đầu xuất hiện (bản đầy đủ); bản rút gọn chỉ phiên âm Việt |
+| D7 | Tên riêng trong gloss? | Phiên âm tiếng Việt theo bảng hệ thống (docs/TRANSLIT.md, xem D13) + Latinh quốc tế trong ngoặc ở lần đầu xuất hiện (bản đầy đủ); bản rút gọn chỉ phiên âm Việt |
 | D8 | Tiếng Anh 1889 cổ? | **Dịch theo nghĩa hiện đại đã kiểm định** (qua decoder `data/decoder-1889.tsv`, tra chéo LSJ9/Bailly khi cần); không dịch word-by-word các từ cổ gây lệch nghĩa |
 | D9 | Phân tầng sense I/II/III + A/B/C? | **Giữ nguyên phân tầng** trong bản đầy đủ; bản rút gọn phẳng hoá + ghi số sense gốc để truy vết |
 | D10 | Metadata nguồn? | **Bắt buộc**: mỗi sense VI mang sense-ID gốc (alignment); không có alignment thì không thể kiểm thử tự động |
-| D11 | Repo nào? | **Repo riêng mới** `graecum-lexicon`, chứa bản đầy đủ + term base + whitelist + linter + CI; satzanalyse/graecum chỉ nhận dict.js rút gọn sinh từ đây |
+| D11 | Repo nào? | **Repo riêng mới** `graecum-lexicon`, chứa bản đầy đủ + term base + bảng phiên âm + linter + CI; satzanalyse/graecum chỉ nhận dict.js rút gọn sinh từ đây |
 | D12 | Định dạng dữ liệu? | **TSV 6 cột** cho term base/cẩm nang (schema: `docs/FORMAT-SPEC.md`), đồng phong cách hệ sinh thái, đọc được bởi người lẫn AI agent, là dữ liệu đầu vào trực tiếp của linter |
 | D13 | Phiên âm tên riêng? | **SỬA ĐỔI 2026-11-13 (cuối ngày)**: phiên âm hoàn toàn theo bảng hệ thống `docs/TRANSLIT.md`, KHÔNG whitelist ngoại lệ, KHÔNG tách theo register; mọi tên (Attic, Homer, Koine) sinh từ cùng một bảng, letter-faithful, đuôi không rút gọn (-ς → s). Quyết định đầu ngày (register + whitelist) bị thay: ngoại lệ dẫn đến confusion và không kiểm thử tự động được |
 
