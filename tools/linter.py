@@ -74,8 +74,13 @@ def load_tsv(path, schema, rep, gate):
 # ---------------------------------------------------------------- gates
 
 def gate_encoding(root, rep):
-    """A. Sweep ky tu tren moi file du lieu + docs."""
-    targets = list((root / "data").rglob("*.tsv")) + list((root / "docs").glob("*.md"))
+    """A. Sweep ky tu tren moi file du lieu + docs.
+
+    data/source/ (trich nguyen van TEI, en_gloss giu nguyen ban 1889) khong
+    duoc quet: em dash cua ban goc la cua nguon PD, khong phai loi bien soan."""
+    src_dir = root / "data" / "source"
+    targets = [p for p in (root / "data").rglob("*.tsv") if src_dir not in p.parents] \
+        + list((root / "docs").glob("*.md"))
     for p in sorted(targets):
         rel = p.relative_to(root)
         text = p.read_text(encoding="utf-8")

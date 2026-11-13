@@ -40,6 +40,23 @@ headword	sense_id	level	en_gloss	vi_gloss	citations	status	src
 - `status`: `done | chua-dich | src-err` (ASCII; `chua-dich` hiển thị trong bản đọc là `[chưa dịch]`).
 - `src`: `ML` (toàn bộ Phase T-P3 đều trục ML).
 
+### 4.1. Source TSV ingest: `data/source/ml-senses.tsv` (local, không commit)
+
+Output của `tools/ingest_liddell.py` từ TEI Middle Liddell (Perseus_text_1999.04.0058.xml, 36.490 entry). File nguồn TEI và TSV này KHÔNG commit vào repo (đã có trong `.gitignore`: `data/source/`, `*.xml`); ingest lại bằng tool khi cần.
+
+```
+entry_id\theadword\tsense_id\tlevel\ten_gloss\tcitations\tsrc
+aatos1\tἆθλος\taatos#0\t0\trace of contest...\tIl.\tML
+```
+
+- `entry_id`: `<latin><số homograph>` (số giữ từ TEI, headword bỏ số); homograph khác dấu được tách entry.
+- `sense_id`: `<latin>#<label>`, do parser sinh theo vị trí sense gốc trong entry: level 0 → `0`, `0.2`...; level 1 → `A`, `B`... hoặc `II.A` (nếu cha là `II`); level 2 → `I`, `II`, `III`...; level 3 → `II.A.2` dạng `<parent>.<số>`; level 4 → `<parent>.<chữ>`. Người dịch KHÔNG tự đánh số sense.
+- `xref`: entry tham chiếu thuần (không gloss) → `level = xref`, label `xref`.
+- `ML-EMPTY`: sense rỗng hoặc chỉ có citation → giữ dòng để alignment đủ, `src = ML-EMPTY`.
+- `en_gloss`: giữ nguyên văn 1889; chỉ gỡ artefact dấu phẩy thừa của bản số hoá khi sense trống sau cleanup (documented trong tool).
+- `citations`: usg/ nguồn trích tách từ gloss, join bằng `; `.
+- Chạy toàn file cho 56.893 dòng sense (55.109 sense + 1.773 xref), 485 sense_id trùng giữa homograph được gắn thêm `@entry_id` để duy nhất.
+
 ## 5. Manifest: `data/batches/manifest.tsv`
 
 ```

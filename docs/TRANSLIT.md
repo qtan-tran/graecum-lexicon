@@ -42,27 +42,27 @@ Người sở hữu chốt 2026-11-13: bỏ toàn bộ whitelist ngoại lệ; m
 
 ## 3. Thanh điệu
 
-Trọng âm (acute/grave/circumflex xử như nhau) → **thanh sắc** trên nguyên âm của âm tiết mang trọng âm. Âm tiết không trọng âm → không dấu. Đặt dấu trên NGUYÊN ÂM của âm tiết (không phải trên phụ âm).
+Trọng âm (acute/grave/circumflex xử như nhau) → **thanh sắc** trên nguyên âm của âm tiết mang trọng âm. Âm tiết không trọng âm → không dấu. Đặt dấu trên NGUYÊN ÂM của âm tiết (không phải trên phụ âm). Nếu nguyên âm mang trọng âm là η/ω (chữ cái Việt đã có ˆ), dấu sắc đặt chồng lên: ê → ế, ô → ố (ví dụ Ἀθῆναι → Athếnai, Ξενοφῶν → Xenophốn). Nguyên âm η/ω ở âm tiết KHÔNG trọng âm vẫn giữ ˆ của chữ cái (Hómêros), đó là dấu chữ cái chứ không phải thanh điệu.
 
 ## 4. Đuôi
 
 **Không rút gọn:** mọi chữ cái của tên gốc đều được phiên âm, kể cả `-ς` cuối từ. Không có quy tắc đặc biệt cho -ης/-ων/-ος; chúng đi qua bảng chữ cái như thường.
 
-| Greek | Dạng sinh từ bảng | Dạng cũ kiểu Pháp (đã bỏ) |
+| Greek | Dạng sinh từ bảng (đối chiếu generator) | Dạng cũ kiểu Pháp (đã bỏ) |
 | --- | --- | --- |
 | Σωκράτης | Sôcrátês | Sôcrát |
-| Σοφοκλῆς | Sôphôclês | Sôphôclês |
-| Πλάτων | Platôn | Platôn |
-| Ξενοφῶν | Xênôphôn | Xênôphông |
-| Δημοσθένης | Dêmôstênês | Dêmôxtên |
-| Θουκυδίδης | Thucudídês | Tucidit |
-| Ἡρόδοτος | Hêródotos | Hêrôđôt |
-| Ὅμηρος | Hômerôs | Hôme |
+| Σοφοκλῆς | Sophoclếs | Sôphôclê |
+| Πλάτων | Plátôn | Platôn |
+| Ξενοφῶν | Xenophốn | Xênôphông |
+| Δημοσθένης | Đêmosthénês | Dêmôxtên |
+| Θουκυδίδης | Thucyđíđês | Tucidit |
+| Ἡρόδοτος | Hêróđotos | Hêrôđôt |
+| Ὅμηρος | Hómêros | Hôme |
 | Ἰωάννης | Iôánnês | Giăng |
-| Ἀθῆναι | Athênai | Aten |
+| Ἀθῆναι | Athếnai | Aten |
 | Σπάρτη | Spártê | Spác-ta |
-| Πειραιεύς | Peiraieús | Pirê |
-| Δελφοί | Delphoí | Đelfoi |
+| Πειραιεύς | Piraiéus | Pirê |
+| Δελφοί | Đelphói | Đelfoi |
 
 (Nguyên tắc chọn letter-faithful: các dạng rút gọn kiểu Pháp không suy ngược được từ một quy tắc duy nhất; chỉ letter-faithful mới deterministic và kiểm thử tự động được.)
 

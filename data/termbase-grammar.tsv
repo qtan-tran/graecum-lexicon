@@ -116,3 +116,672 @@ surety	term	guarantor, bail	người bảo lãnh	ML
 guardian	term	legal protector (kyrios)	người giám hộ	ML	
 inheritance	term	estate passing to heirs	di sản	ML	
 amnesty	term	general pardon	đại xá	ML	
+sc.	marker	scilicet: (hãy hiểu/bổ sung thêm)	(hãy hiểu thêm)	ML/LSJ	đứng trước từ cần tự bổ sung khi đọc
+scil.	marker	= scilicet	(hãy hiểu thêm)	ML/LSJ	
+abs.	marker	absolutely, without construction	độc lập (không kèm bổ ngữ)	ML/LSJ	
+Act.	marker	in the active (voice)	(chủ động)	ML/LSJ	
+Mid.	marker	middle voice; also Demosthenes, Against Meidias	(trung thái)	ML/LSJ	đa nghĩa, suy theo ngữ cảnh
+Pass.	marker	in the passive (voice)	(bị động)	ML/LSJ	
+an.	marker	analogical, according to analogy	(theo tương tự)	ML/LSJ	
+anastroph.	marker	anastrophe: inversion of word order, accent retracted	(đảo trật tự, rút trọng âm)	ML/LSJ	
+apoc.	marker	apocope: cutting off of final letter(s)	(cắt âm cuối)	ML/LSJ	
+aphaer.	marker	aphaeresis: dropping of initial letter(s)	(mất âm đầu)	ML/LSJ	
+assim.	marker	assimilation of one sound to another	(đồng hoá âm)	ML/LSJ	
+contr.	marker	contracted form	(dạng co rút)	ML/LSJ	
+uncontr.	marker	uncontracted form	(dạng không co rút)	ML/LSJ	
+crasis	marker	crasis: fusion of vowel ending + vowel beginning	(nối nguyên âm cuối với đầu)	ML/LSJ	
+syncope	marker	syncope: loss of inner vowel	(rút nguyên âm giữa)	ML/LSJ	
+synizesis	marker	synizesis: two vowels pronounced as one syllable	(hai nguyên âm đọc thành một âm tiết)	ML/LSJ	
+parag.	marker	paragoge: addition of extra final letter	(thêm âm cuối)	ML/LSJ	
+prodel.	marker	prodelision: elision of initial vowel after crasis	(rút nguyên âm đầu sau crasis)	ML/LSJ	
+elis.	marker	elision of a final vowel before a following vowel	(rút nguyên âm cuối)	ML/LSJ	
+metath.	marker	metathesis: transposition of sounds	(đảo vị trí âm)	ML/LSJ	
+dissim.	marker	dissimilation of sounds	(hetero hoá âm)	ML/LSJ	
+heterocl.	marker	heteroclite: irregular declension	(biến cách bất quy tắc)	ML/LSJ	
+augm.	marker	augment (syllabic or temporal)	tăng âm (đầu từ)	ML/LSJ	
+redupl.	marker	reduplication of initial syllable	(lặp âm tiết đầu)	ML/LSJ	
+iterat.	marker	iterative: expressing repetition	(chỉ lặp lại)	ML/LSJ	
+desid.	marker	desiderative: expressing wish	(chỉ ước muốn)	ML/LSJ	
+causat.	marker	causative: expressing making/ causing	(chỉ sự khiến cho)	ML/LSJ	
+dimin.	marker	diminutive form	(dạng chỉ nhỏ)	ML/LSJ	
+compar.	marker	comparative degree	(so sánh hơn)	ML/LSJ	
+superl.	marker	superlative degree	(so sánh nhất)	ML/LSJ	
+pos.	marker	positive degree (not comparative)	(cấp thường)	ML/LSJ	
+nom.	marker	nominative case	chủ cách	ML/LSJ	
+obl.	marker	oblique cases (gen./dat./acc.)	các cách nghiêng (sở hữu/với/đối)	ML/LSJ	
+abl.	marker	ablative case (in Doric/Aeolic)	cách ly (Doric/Aeolic)	ML/LSJ	
+instr.	marker	instrumental case (in Homer)	cách công cụ (Homer)	ML/LSJ	
+loc.	marker	locative case (in Homer)	cách vị trí (Homer)	ML/LSJ	
+m.	marker	masculine	giống đực	ML/LSJ	
+f.	marker	feminine	giống cái	ML/LSJ	
+n.	marker	neuter	giống trung	ML/LSJ	
+masc.	marker	masculine	giống đực	ML/LSJ	
+fem.	marker	feminine	giống cái	ML/LSJ	
+neut.	marker	neuter	giống trung	ML/LSJ	
+ind.	marker	indicative mood	chỉ định (thức)	ML/LSJ	
+3rd pers.	marker	third person	ngôi thứ ba	ML/LSJ	
+1 aor.	marker	first aorist	aorist loại 1	ML/LSJ	
+aor. pass.	marker	aorist passive	aorist bị động	ML/LSJ	
+fut. mid.	marker	future middle	tương lai trung thái	ML/LSJ	
+fut. pass.	marker	future passive	tương lai bị động	ML/LSJ	
+pf. mid.	marker	perfect middle	hoàn thành trung thái	ML/LSJ	
+perf. pass.	marker	perfect passive	hoàn thành bị động	ML/LSJ	
+in tmesis	marker	verb separated by intervening word (Homeric)	(động từ tách rời, kiểu Homer)	ML/LSJ	
+quasi	marker	as if, in a manner	(như thể, gần đúng)	ML/LSJ	
+euphem.	marker	euphemistically	(nói giảm nói tránh)	ML/LSJ	
+iron.	marker	ironically	(mỉa mai)	ML/LSJ	
+hyperb.	marker	hyperbolically	(khoa trương)	ML/LSJ	
+perh.	marker	perhaps	có lẽ	ML/LSJ	
+prob.	marker	probably	hẳn là	ML/LSJ	
+appar.	marker	apparently	nhìn chung là	ML/LSJ	
+chiefly	marker	chiefly, principally	chủ yếu	ML/LSJ	
+commonly	marker	commonly, usually	thường thường	ML/LSJ	
+usually	marker	usually	thường	ML/LSJ	
+always	marker	always, without exception	luôn luôn	ML/LSJ	
+never	marker	never (in a given usage)	không bao giờ	ML/LSJ	
+seldom	marker	seldom	ít khi	ML/LSJ	
+unknown	marker	unknown, unattested usage	(không thấy dùng)	ML/LSJ	
+only	marker	only, exclusively	chỉ, duy nhất	ML/LSJ	
+also	marker	also, besides	cũng, thêm	ML/LSJ	
+even	marker	even (emphatic)	ngay cả	ML/LSJ	
+without	marker	without (a complement)	không kèm	ML/LSJ	
+with	marker	with (a complement)	kèm theo	ML/LSJ	
+not	marker	not (negating a phrase)	không	ML/LSJ	
+gen. abs.	marker	genitive absolute construction	cấu trúc sở hữu cách tuyệt đối	ML/LSJ	
+dat. abs.	marker	dative absolute construction	cấu trúc với cách tuyệt đối	ML/LSJ	
+acc. et inf.	marker	accusative and infinitive construction	đối cách + nguyên mẫu	ML/LSJ	
+v.l.	marker	varia lectio: variant reading of manuscripts	biến thể bản thảo	ML/LSJ	
+codd.	marker	codices: manuscripts	bản thảo	ML/LSJ	
+conj.	marker	conjecture (emendation) not in manuscripts	(phỏng đoán của học giả, không có trong bản thảo)	ML/LSJ	
+emend.	marker	emendation, corrected reading	(sửa đọc)	ML/LSJ	
+lacuna	marker	gap in the transmitted text	(lệch mất chữ)	ML/LSJ	
+corrupt	marker	corrupt passage, text unsound	(đoạn lỗi thời)	ML/LSJ	
+st.	marker	stands (in a passage), is written	(ghi là)	ML/LSJ	
+for	marker	for: the true reading instead of	(thay cho)	ML/LSJ	
+read	marker	read: adopted reading instead of manuscripts	(đọc là)	ML/LSJ	
+ib.	marker	ibidem: in the same place	(chỗ đã dẫn)	ML/LSJ	
+l.c.	marker	loco citato: in the passage cited	(đoạn vừa dẫn)	ML/LSJ	
+passim	marker	passim: here and there throughout	theo nhiều nơi trong tác phẩm	ML/LSJ	
+sup.	marker	above (in this entry or text)	(ở trên)	ML/LSJ	
+infr.	marker	below (in this entry or text)	(ở dưới)	ML/LSJ	
+post	marker	after (a date or author)	sau (thời gian/tác giả)	ML/LSJ	
+post-Class.	marker	post-Classical, after the Classical period	hậu cổ điển	ML/LSJ	
+pre-Hom.	marker	pre-Homeric, before Homer	tiền Homer	ML/LSJ	
+metri causa	marker	for the sake of metre	(vì vần điệu)	ML/LSJ	
+vox med.	marker	vox mediae significationis: word of middle sense	(từ nghĩa trung tính)	ML/LSJ	
+ipsis verbis	marker	in the very words (quoted verbatim)	(nguyên văn)	ML/LSJ	
+sic	marker	sic: thus in the original (error retained)	(nguyên văn như thế, kể cả lỗi)	ML/LSJ	
+nasc.	marker	nasalised or with nasal insertion	(chèn âm mũi)	ML/LSJ	
+epenth.	marker	epenthesis: insertion of a sound	(chèn âm giữa)	ML/LSJ	
+prothetic	marker	prothetic vowel added at word start	(nguyên âm thêm đầu từ)	ML/LSJ	
+atticised	marker	conformed to Attic usage	(theo hoá Attic)	ML/LSJ	
+in Bonitz	marker	cited from Boniz index of Aristotle	(dẫn theo chỉ mục Bonitz)	ML/LSJ	
+in Schäfer	marker	cited from Schäfer's edition	(dẫn theo bản Schäfer)	ML/LSJ	
+in Meurs.	marker	cited from Meursius	(dẫn theo Meursius)	ML/LSJ	
+in Poll.	marker	cited from Pollux	(dẫn theo Pollux)	ML/LSJ	
+in Phot.	marker	cited from Photius	(dẫn theo Photius)	ML/LSJ	
+in Suid.	marker	cited from Suidas (the Suda lexicon)	(dẫn theo Suidas)	ML/LSJ	
+in Hdn.	marker	cited from Herodian (grammarian)	(dẫn theo Herodian)	ML/LSJ	
+in Etym. M.	marker	cited from Etymologicum Magnum	(dẫn theo Etymologicum Magnum)	ML/LSJ	
+in EM	marker	= Etymologicum Magnum	(dẫn theo Etymologicum Magnum)	ML/LSJ	
+in Zen.	marker	cited from Zenobius (proverb collector)	(dẫn theo Zenobius)	ML/LSJ	
+in Paroem.	marker	cited from paroemiographers (proverb collections)	(dẫn theo sách tục ngữ)	ML/LSJ	
+in Paroemiogr.	marker	= paroemiographers	(dẫn theo sách tục ngữ)	ML/LSJ	
+in Rhet.	marker	in rhetorical writers	(trong nhà tu từ học)	ML/LSJ	
+in gramm.	marker	in grammarians	(trong văn pháp gia)	ML/LSJ	
+in lexicogr.	marker	in lexicographers	(trong từ điển gia)	ML/LSJ	
+in inscr.	marker	in inscriptions	(trong bia ký)	ML/LSJ	
+in pap.	marker	in papyri	(trong giấy cói)	ML/LSJ	
+in ostr.	marker	in ostraca (potsherds)	(trong mảnh gốm)	ML/LSJ	
+in LXX	marker	in the Septuagint	(trong bản LXX)	ML/LSJ	
+in NT	marker	in the New Testament	(trong Tân Ước)	ML/LSJ	
+of a maiden	marker	of a maiden, unmarried girl	(chỉ thiếu nữ chưa chồng)	ML/LSJ	
+of children	marker	of children	(chỉ trẻ em)	ML/LSJ	
+of women	marker	of women	(chỉ phụ nữ)	ML/LSJ	
+of animals	marker	of animals	(chỉ động vật)	ML/LSJ	
+of the mind	marker	of the mind, mental	(chỉ tâm trí)	ML/LSJ	
+of the body	marker	of the body, bodily	(chỉ thân thể)	ML/LSJ	
+of place	marker	of place, local	(chỉ nơi chốn)	ML/LSJ	
+of time	marker	of time, temporal	(chỉ thời gian)	ML/LSJ	
+of number	marker	of number, quantity	(chỉ số lượng)	ML/LSJ	
+of manner	marker	of manner, mode	(chỉ phương thức)	ML/LSJ	
+of measure	marker	of measure, size	(chỉ kích thước/đo lường)	ML/LSJ	
+of all kinds	marker	of every kind	mọi loại	ML/LSJ	
+in every sense	marker	in every sense, meaning	mọi nghĩa	ML/LSJ	
+in various senses	marker	in various senses	nhiều nghĩa khác nhau	ML/LSJ	
+w. disjunct.	marker	with disjunctive particles (e)/h)	với tiểu từ phân biệt (e)/h)	ML/LSJ	
+w. aor. inf.	marker	with aorist infinitive	kèm nguyên mẫu aorist	ML/LSJ	
+w. pf. part.	marker	with perfect participle	kèm phân từ hoàn thành	ML/LSJ	
+w. gen. part.	marker	with participle in genitive	kèm phân từ sở hữu cách	ML/LSJ	
+in oratio recta	marker	in direct speech	(trong lời trích trực tiếp)	ML/LSJ	
+in oratio obliqua	marker	in indirect speech	(trong lời trích gián tiếp)	ML/LSJ	
+as 2nd Pers.	marker	ironic use of 2nd person	(dùng ngôi thứ hai kiểu mỉa)	ML/LSJ	
+universal	marker	of universal application	(dùng mọi chủ thể)	ML/LSJ	
+coordinate	marker	coordinate (not subordinating)	(kết nối ngang hàng)	ML/LSJ	
+subordinate	marker	subordinating	(phụ thuộc hoá)	ML/LSJ	
+anaphoric	marker	anaphoric: pointing back to prior word	(chỉ ngược về từ trước)	ML/LSJ	
+deictic	marker	deictic: pointing to present object	(chỉ tại chỗ)	ML/LSJ	
+ascensive	marker	ascensive: even (climbing sense)	(tăng cấp: ngay cả)	ML/LSJ	
+adversative	marker	adversative: but, however	(phản đối: nhưng)	ML/LSJ	
+illative	marker	illative: therefore, then	(suy luận: vậy thì)	ML/LSJ	
+causal	marker	causal: because, for	(chỉ nguyên nhân)	ML/LSJ	
+final	marker	final: expressing purpose	(chỉ mục đích)	ML/LSJ	
+concessive	marker	concessive: although	(chỉ nhượng bộ)	ML/LSJ	
+conditional	marker	conditional: if	(chỉ điều kiện)	ML/LSJ	
+potential	marker	potential mood/sense (unreal)	(khả năng, chưa thật)	ML/LSJ	
+prospective	marker	prospective: looking forward	(chỉ hướng tới)	ML/LSJ	
+geminate	marker	geminate, doubled consonant	(phụ âm kép)	ML/LSJ	
+tenuis	marker	tenues: unvoiced stop (p, t, k)	(âm tắc không bật hơi/không voiced)	ML/LSJ	
+media	marker	mediae: voiced stop (b, d, g)	(âm tắc voiced)	ML/LSJ	
+aspirate	marker	aspiratae: aspirated stop (ph, th, kh)	(âm tắc bật hơi)	ML/LSJ	
+labial	marker	labial consonant (p, b, ph)	(âm môi)	ML/LSJ	
+dental	marker	dental consonant (t, d, th)	(âm răng)	ML/LSJ	
+guttural	marker	guttural/palatal consonant (k, g, kh)	(âm họng/cứng)	ML/LSJ	
+syll.	marker	syllable/short for	(âm tiết; viết tắt của)	ML/LSJ	
+C.	marker	circa: about (a date)	khoảng (năm)	ML/LSJ	
+fl.	marker	floruit: flourished (an author's active period)	(sống/sáng tác vào khoảng)	ML/LSJ	
+n.l.	marker	non liquet: unclear (reading)	(chưa rõ)	ML/LSJ	
+non liquet	marker	it is not clear (a doubtful passage)	(chưa rõ, nghi vấn)	ML/LSJ	
+incert.	marker	uncertain (attribution)	(không chắc tác giả)	ML/LSJ	
+adesp.	marker	adespota: of unknown authorship	(không rõ tác giả)	ML/LSJ	
+al.	marker	alibi, elsewhere; or: another reading	(nơi khác / cách đọc khác)	ML/LSJ	
+cf. infr.	marker	compare below	(đối chiếu phần dưới)	ML/LSJ	
+cf. sup.	marker	compare above	(đối chiếu phần trên)	ML/LSJ	
+v. l.c.	marker	see the passage cited above	(xem đoạn vừa dẫn)	ML/LSJ	
+passim in Hom.	marker	frequently throughout Homer	(rải khắp Homer)	ML/LSJ	
+etymology	marker	etymology section of an entry	(từ nguyên)	ML/LSJ	
+cognate	marker	cognate word, of same family	(từ cùng họ)	ML/LSJ	
+cog.	marker	= cognate	(từ cùng họ)	ML/LSJ	
+denomin.	marker	denominative: formed from a noun	(sinh từ danh từ)	ML/LSJ	
+onomat.	marker	onomatopoeic word	(từ tượng thanh)	ML/LSJ	
+imitat.	marker	imitative (of sound)	(từ tượng thanh)	ML/LSJ	
+sect.	marker	section (of a passage)	(tiết/đoạn)	ML/LSJ	
+ap.	marker	apud: in the work of	(trong tác phẩm của)	ML/LSJ	
+dub.	marker	dubius: of doubtful attribution/meaning	(nghi ngờ tác giả/nghĩa)	ML/LSJ	
+spurious	marker	not genuine, not by the named author	(giả mạo, không phải của tác giả nêu)	ML/LSJ	
+fragm.	marker	fragment (of lost work)	(mảnh ghép)	ML/LSJ	
+fr.	marker	= fragment	(mảnh ghép)	ML/LSJ	
+incert. auct.	marker	incerti auctoris: of uncertain author	(tác giả không rõ)	ML/LSJ	
+nonce-word	marker	word coined for a single occasion	(từ chế một lần)	ML/LSJ	
+vox nihili	marker	a nonsense reading in manuscripts	(đọc vô nghĩa trong bản thảo)	ML/LSJ	
+nihil	marker	nothing: the reading means nothing	(đọc vô nghĩa)	ML/LSJ	
+mute	marker	mute/surd consonant (1889 term for voiceless stop)	(phụ âm câm, = voiceless stop)	ML	term chuyên ngữ 1889, không phải "câm lặng"
+Hom.	citation	Homer, the Iliad and Odyssey	Homer (Il./Od.)	ML	
+Il.	citation	Homer, Iliad	Homer, Iliad	ML	
+Od.	citation	Homer, Odyssey	Homer, Odyssey	ML	
+Hes.	citation	Hesiod	Hesiod (Th. = Theogony; WD/Op. = Works and Days)	ML	
+Th.	citation	Hesiod, Theogony (also Plato, Timaeus; theo ngữ cảnh)	Hesiod Theogonia (hoặc Plato Timaeus)	ML	đa nghĩa, suy theo ngữ cảnh
+Op.	citation	Hesiod, Works and Days	Hesiod Works and Days (việc và ngày)	ML	
+WD	citation	Hesiod, Works and Days (một số ấn bản)	Hesiod Works and Days	ML	
+Homeric Hymn.	citation	Homeric Hymns	Thánh ca Homer	ML	
+h.Hom.	citation	Homeric Hymns	Thánh ca Homer	ML	
+Epigr.	citation	epigrams	đoạn ca ẩn danh	ML	
+Epic.	citation	epic poets generally	các nhà thơ sử thi	ML	
+Archil.	citation	Archilochus (iambic poet)	Archilochus (thơ iamb)	ML	
+Alc.	citation	Alcaeus	Alcaeus	ML	
+Sapph.	citation	Sappho	Sappho	ML	
+Sol.	citation	Solon (poet and lawgiver)	Solon	ML	
+Stesich.	citation	Stesichorus	Stesichorus	ML	
+Ib.	citation	Ibycus	Ibycus	ML	tên author; khác "ib." (ibidem)
+Anacr.	citation	Anacreon	Anacreon	ML	
+Hippon.	citation	Hipponax	Hipponax	ML	
+Callim.	citation	Callimachus	Callimachus	ML	
+Theocr.	citation	Theocritus	Theocritus (thơ đồng quê)	ML	
+Mosch.	citation	Moschus	Moschus	ML	
+Bion	citation	Bion (bucolic poet)	Bion	ML	
+Nic.	citation	Nicander (Alexipharmaca, Theriaca)	Nicander	ML	
+Arat.	citation	Aratus (Phaenomena)	Aratus	ML	
+Ap.Rhod.	citation	Apollonius Rhodius	Apollonius Rhodius	ML	
+Tryph.	citation	Tryphiodorus	Tryphiodorus	ML	
+Colluth.	citation	Colluthus	Colluthus	ML	
+Quint. Smyrn.	citation	Quintus Smyrnaeus	Quintus Smyrnaeus	ML	
+Aesch.	citation	Aeschylus (tragedian)	Aeschylus (bi kịch gia)	ML	
+S.	citation	Sophocles (short abbreviation)	Sophocles	ML	
+Soph.	citation	Sophocles	Sophocles (bi kịch gia)	ML	
+E.	citation	Euripides (short abbreviation)	Euripides	ML	
+Eur.	citation	Euripides	Euripides (bi kịch gia)	ML	
+Ch.	citation	Aeschylus, Choephoroi	Aeschylus Choephoroi (Người rót lễ)	ML	
+Ag.	citation	Aeschylus, Agamemnon	Aeschylus Agamemnon	ML	
+Eu.	citation	Aeschylus, Eumenides	Aeschylus Eumenides (Thần từ bi)	ML	
+Pers.	citation	Aeschylus, Persians	Aeschylus Persae (Người Ba Tư)	ML	
+Pr.	citation	Aeschylus, Prometheus Bound / Plato, Protagoras	Aeschylus Prometheus / Plato Protagoras	ML	đa nghĩa, suy theo ngữ cảnh
+Sept.	citation	Aeschylus, Seven against Thebes	Aeschylus Bảy tướng công thành Thebes	ML	
+Supp.	citation	Aeschylus, Suppliants (also Euripides)	Aeschylus/Euripides Những người cầu cứu	ML	
+Thy.	citation	Aeschylus (Thyestes, lost) / Seneca	Thyestes	ML	
+Aj.	citation	Sophocles, Ajax	Sophocles Ajax	ML	
+Ant.	citation	Sophocles, Antigone	Sophocles Antigone	ML	
+El.	citation	Sophocles/Euripides, Electra	Sophocles/Euripides Electra	ML	
+O.T.	citation	Sophocles, Oedipus Tyrannus	Sophocles Oedipus vua	ML	
+O.C.	citation	Sophocles, Oedipus Coloneus	Sophocles Oedipus ở Colonus	ML	
+Ph.	citation	Sophocles, Philoctetes	Sophocles Philoctetes	ML	
+Tr.	citation	Sophocles, Trachiniae	Sophocles Trachiniai (Các phụ nữ Trachis)	ML	
+Alc. (Eur.)	citation	Euripides, Alcestis	Euripides Alcestis	ML	
+Andr.	citation	Euripides, Andromache	Euripides Andromache	ML	
+Bacch.	citation	Euripides, Bacchae (also Bassarides of Aeschylus)	Euripides Bacchae (Nữ thần Bacchus)	ML	
+Cyc.	citation	Euripides, Cyclops (also Homer)	Euripides Cyclops (Kỳ nhân)	ML	
+Hec.	citation	Euripides, Hecuba	Euripides Hecuba	ML	
+Heracl.	citation	Euripides, Heraclidae (also Shakespeare)	Euripides Con cái Heracles	ML	
+Heracl. Main.	citation	Euripides, Heracles Mainomenos	Euripides Heracles phát điên	ML	
+Hipp.	citation	Euripides, Hippolytus	Euripides Hippolytus	ML	
+Ion	citation	Euripides, Ion (play)	Euripides Ion (kịch)	ML	
+I.A.	citation	Euripides, Iphigenia in Aulis	Euripides Iphigenia ở Aulis	ML	
+I.T.	citation	Euripides, Iphigenia in Tauris	Euripides Iphigenia ở Tauris	ML	
+Med.	citation	Euripides, Medea	Euripides Medea	ML	
+Or.	citation	Euripides, Orestes	Euripides Orestes	ML	
+Ph. (Eur.)	citation	Euripides, Phoenissae	Euripides Phoenissae (Phụ nữ Phoenicia)	ML	
+Rhes.	citation	Euripides, Rhesus (spurious)	Euripides Rhesus	ML	
+Tro.	citation	Euripides, Troades	Euripides Troades (Người Troia)	ML	
+Ar.	citation	Aristophanes (comic poet)	Aristophanes (hài kịch gia)	ML	
+Ach.	citation	Aristophanes, Acharnians	Aristophanes Acharnenses	ML	
+Av.	citation	Aristophanes, Birds	Aristophanes Chim	ML	
+Eccl.	citation	Aristophanes, Ecclesiazusae	Aristophanes Hội đồng phụ nữ	ML	
+Kn.	citation	Aristophanes, Knights	Aristophanes Kỵ sĩ	ML	
+Lys.	citation	Aristophanes, Lysistrata (also Lysias the orator)	Aristophanes Lysistrata / Lysias	ML	đa nghĩa: kịch hoặc diễn giả
+Nub.	citation	Aristophanes, Clouds	Aristophanes Mây	ML	
+Pax	citation	Aristophanes, Peace	Aristophanes Hoà bình	ML	
+Plut.	citation	Plutarch; also Aristophanes' Plutus	Plutarch / Aristophanes Plutus	ML	đa nghĩa, suy theo ngữ cảnh
+Ran.	citation	Aristophanes, Frogs	Aristophanes Ếch	ML	
+Thesm.	citation	Aristophanes, Thesmophoriazusae	Aristophanes Lễ Thesmophoria	ML	
+Vesp.	citation	Aristophanes, Wasps	Aristophanes Ong bắp cày	ML	
+Men.	citation	Menander (comic poet)	Menander	ML	
+Dysc.	citation	Menander, Dyscolus	Menander Dyscolus (Người khó tính)	ML	
+Sam.	citation	Menander, Samia (also Septuagint, Song of the Three)	Menander Samia	ML	
+Adesp. poeta	citation	anonymous poet (Trag. Adesp., Com. Adesp.)	nhà thơ ẩn danh	ML	
+Trag.	citation	tragic poets generally	các nhà bi kịch	ML	
+Com.	citation	comic poets generally	các nhà hài kịch	ML	
+Hdt.	citation	Herodotus (historian)	Herodotus (sử gia)	ML	
+Thuc.	citation	Thucydides	Thucydides	ML	
+X.	citation	Xenophon (short abbreviation)	Xenophon	ML	
+Xen.	citation	Xenophon	Xenophon (sử gia)	ML	
+An.	citation	Xenophon, Anabasis (also "compare")	Xenophon Anabasis (hành quân về)	ML	đa nghĩa với "an." (so sánh), suy theo ngữ cảnh
+Cyr.	citation	Xenophon, Cyropaedia (also Cyril)	Xenophon Cyropaedia (giáo dục Cyrus)	ML	
+Hell.	citation	Xenophon, Hellenica (also hell. = Hellenistic)	Xenophon Hellenica (Sử Hy Lạp)	ML	đa nghĩa với hell., suy theo ngữ cảnh
+Mem.	citation	Xenophon, Memorabilia (also memorial in inscriptions)	Xenophon Memorabilia (Ký ức về Socrates)	ML	
+Oecon.	citation	Xenophon, Oeconomicus	Xenophon Oeconomicus (Kinh tế gia đình)	ML	
+HG	citation	Xenophon, Hellenica (alternate form)	Xenophon Hellenica	ML	
+Symp.	citation	Xenophon/Plato, Symposium	Xenophon/Plato Hội luận (tiệc truyền)	ML	
+Vect.	citation	Xenophon, Poroi (Ways and Means)	Xenophon Poroi (Nguồn thu)	ML	
+Eq. Mag.	citation	Xenophon, On the Cavalry Commander	Xenophon Kỵ binh trưởng	ML	
+Pl.	citation	Plato	Plato	ML	
+Grg.	citation	Plato, Gorgias	Plato Gorgias	ML	
+Phd.	citation	Plato, Phaedo	Plato Phaedo	ML	
+Phdr.	citation	Plato, Phaedrus	Plato Phaedrus	ML	
+Prt.	citation	Plato, Protagoras	Plato Protagoras	ML	
+Resp.	citation	Plato, Republic	Plato Nền cộng hoà	ML	
+Ti.	citation	Plato, Timaeus (also Tibullus)	Plato Timaeus	ML	
+Lg.	citation	Plato, Laws	Plato Luật pháp	ML	
+Cra.	citation	Plato, Cratylus	Plato Cratylus	ML	
+Chrm.	citation	Plato, Charmides	Plato Charmides	ML	
+Lach.	citation	Plato, Laches	Plato Laches	ML	
+Ly.	citation	Plato, Lysis (also lyric)	Plato Lysis	ML	
+Euthd.	citation	Plato, Euthydemus	Plato Euthydemus	ML	
+Euthphr.	citation	Plato, Euthyphro	Plato Euthyphro	ML	
+Meno	citation	Plato, Meno	Plato Meno	ML	
+Arist.	citation	Aristotle	Aristotle	ML	
+Eth.Nic.	citation	Aristotle, Nicomachean Ethics	Aristotle Đạo đức Nicomachea	ML	
+Pol.	citation	Aristotle, Politics (also "political")	Aristotle Chính trị luận	ML	
+Metaph.	citation	Aristotle, Metaphysics	Aristotle Siêu hình học	ML	
+Phys.	citation	Aristotle, Physics (also "physical")	Aristotle Vật lý học	ML	
+HA	citation	Aristotle, Historia Animalium	Aristotle Sử ký động vật	ML	
+PA	citation	Aristotle, Parts of Animals	Aristotle Bộ phận động vật	ML	
+IA	citation	Aristotle, Progression of Animals	Aristotle Chuyển động động vật	ML	
+GA	citation	Aristotle, Generation of Animals	Aristotle Sinh sản động vật	ML	
+Top.	citation	Aristotle, Topics	Aristotle Chủ đề biện luận	ML	
+SE	citation	Aristotle, Sophistical Refutations	Aristotle Phản bác ngụy biện	ML	
+De An.	citation	Aristotle, De Anima (On the Soul)	Aristotle Linh hồn	ML	
+Po.	citation	Aristotle, Poetics	Aristotle Thi ca học	ML	
+Rh.	citation	Aristotle, Rhetoric	Aristotle Tu từ học	ML	
+D.	citation	Demosthenes (orator)	Demosthenes (diễn giả)	ML	
+Dem.	citation	Demosthenes (also Demeter)	Demosthenes / Demeter	ML	đa nghĩa, suy theo ngữ cảnh
+De Cor.	citation	Demosthenes, De Corona (On the Crown)	Demosthenes Bài diễn văn vương miện	ML	
+Phil.	citation	Demosthenes, Philippics (also "love")	Demosthenes Philippics	ML	
+Olynth.	citation	Demosthenes, Olynthiacs	Demosthenes Olynthiacs	ML	
+F.L.	citation	Demosthenes, Against Leptines (also "free list")	Demosthenes Chống Leptines	ML	
+Lept.	citation	Demosthenes, Against Leptines	Demosthenes Chống Leptines	ML	
+Aeschin.	citation	Aeschines (orator)	Aeschines (diễn giả)	ML	
+Isocr.	citation	Isocrates	Isocrates (diễn giả)	ML	
+Isae.	citation	Isaeus	Isaeus	ML	
+Lyc.	citation	Lycurgus (orator; also the Spartan lawgiver)	Lycurgus	ML	
+Antiph.	citation	Antiphon (also Antiphanes, comic poet)	Antiphon	ML	
+Andoc.	citation	Andocides	Andocides	ML	
+Hyper.	citation	Hypereides (also "above")	Hypereides / ở trên	ML	đa nghĩa, suy theo ngữ cảnh
+Din.	citation	Dinarchus	Dinarchus	ML	
+Lycurg.	citation	Lycurgus (orator)	Lycurgus (diễn giả)	ML	
+Str.	citation	Strabo (geographer; also "strew")	Strabo	ML	
+D.S.	citation	Diodorus Siculus (also disyl. = disyllabic)	Diodorus Siculus	ML	đa nghĩa, suy theo ngữ cảnh
+Diod.	citation	Diodorus Siculus	Diodorus Siculus (sử gia)	ML	
+Plu.	citation	Plutarch	Plutarch	ML	
+Luc.	citation	Lucian of Samosata	Lucian (tác gia châm biếm)	ML	
+Jupp. Trag.	citation	Lucian, Juppiter Tragoedus	Lucian Zeus bi kịch	ML	
+Pro Lapsu	citation	Lucian, Pro Lapsu (The Slip of the Tongue)	Lucian Vấp lưỡi	ML	
+Paus.	citation	Pausanias (periegete)	Pausanias (nhà miêu tả địa phương)	ML	
+Ael.	citation	Aelian (also "of the sun")	Aelian	ML	
+Athen.	citation	Athenaeus, Deipnosophists	Athenaeus (tiệc triết)	ML	
+Philostr.	citation	Philostratus	Philostratus	ML	
+Poll.	citation	Julius Pollux (Onomasticon)	Pollux (bảng danh từ)	ML	
+Phryn.	citation	Phrynichus (grammarian)	Phrynichus (văn pháp gia)	ML	
+Moer.	citation	Moeris (Attic lexicon)	Moeris	ML	
+Hdn.	citation	Herodian (grammarian; also Herodion)	Herodian	ML	
+Hdn.Gr.	citation	Herodian, Peri Katholikes Prosdias (On Accent)	Herodian Về trọng âm	ML	
+Gal.	citation	Galen (physician)	Galen (thầy thuốc)	ML	
+Hp.	citation	Hippocrates (short abbreviation)	Hippocrates	ML	
+Hippocr.	citation	Hippocrates	Hippocrates (thầy thuốc cha đẻ y học)	ML	
+Aret.	citation	Aretaeus (physician)	Aretaeus	ML	
+Sor.	citation	Soranus (physician; also Socrates)	Soranus	ML	
+Dsc.	citation	Dioscorides (materia medica; also = disjunctive)	Dioscorides (dược liệu)	ML	
+Ps.	citation	Psalm (also pseudo- prefix)	Thánh thi / giả-	ML	đa nghĩa, suy theo ngữ cảnh
+Gen.	citation	Genesis (also "genuine")	Sáng thế ký	ML	đa nghĩa, suy theo ngữ cảnh
+Ex.	citation	Exodus (also "example")	Xuất hành ký	ML	đa nghĩa, suy theo ngữ cảnh
+Lev.	citation	Leviticus	Lêvi ký	ML	
+Num.	citation	Numbers (also "number")	Dân số ký	ML	đa nghĩa, suy theo ngữ cảnh
+Deut.	citation	Deuteronomy	Phục truyền luật lệ ký	ML	
+Is.	citation	Isaiah	Ê-sai	ML	
+Jer.	citation	Jeremiah	Giê-rê-mi	ML	
+Ezek.	citation	Ezekiel	Ê-xê-chi-ên	ML	
+Dan.	citation	Daniel	Đa-ni-ên	ML	
+Joel	citation	Joel (prophet; also "Io" play)	Giô-ên	ML	
+Hag.	citation	Haggai (also Hegesippus, also "holy")	A-ghai	ML	
+Zech.	citation	Zechariah	Xa-ca-ri	ML	
+Mal.	citation	Malachi (also Malalas)	Ma-la-chi	ML	
+Mt.	citation	Matthew (Gospel)	Phúc âm Ma-thi-ơ	ML	
+Mk.	citation	Mark (Gospel)	Phúc âm Mác	ML	
+Lk.	citation	Luke (Gospel)	Phúc âm Lu-ca	ML	
+Jo.	citation	John (Gospel; also Josephus)	Phúc âm Giăng	ML	đa nghĩa, suy theo ngữ cảnh
+Act. Ap.	citation	Acts of the Apostles	Công vụ các sứ đồ	ML	
+Rom.	citation	Romans (Epistle; also "Roman")	Rô-ma	ML	
+1 Cor.	citation	1 Corinthians	1 Cô-rinh-tô	ML	
+2 Cor.	citation	2 Corinthians	2 Cô-rinh-tô	ML	
+Gal. (NT)	citation	Galatians (Epistle; also Gaul/Galatia)	Ga-la-ti	ML	đa nghĩa, suy theo ngữ cảnh
+Eph.	citation	Ephesians (Epistle; also "Ephesus")	Ê-phê-sô	ML	đa nghĩa, suy theo ngữ cảnh
+Phil. (NT)	citation	Philippians (Epistle; also Demosthenes Philippics)	Phi-líp	ML	đa nghĩa, suy theo ngữ cảnh
+Col.	citation	Colossians (Epistle; also "colon")	Cô-lô-se	ML	
+1 Thess.	citation	1 Thessalonians	1 Tê-sa-lô-ni-ca	ML	
+1 Tim.	citation	1 Timothy	1 Ti-mô-thê	ML	
+Tit.	citation	Titus (Epistle; also "title")	Ti-tơ	ML	đa nghĩa, suy theo ngữ cảnh
+Philem.	citation	Philemon (Epistle; also the comic poet)	Phi-lê-môn	ML	đa nghĩa, suy theo ngữ cảnh
+Heb.	citation	Hebrews (Epistle; also "Hebrew")	Hê-bơ-rơ	ML	đa nghĩa, suy theo ngữ cảnh
+1 Pet.	citation	1 Peter	1 Phi-e-rơ	ML	
+1 Jo.	citation	1 John (Epistle)	1 Giăng	ML	
+Jud.	citation	Jude (Epistle; also "Judas")	Giu-đe	ML	đa nghĩa, suy theo ngữ cảnh
+Apoc.	citation	Revelation (Apocalypse)	Khải huyền	ML	
+Pseudo-	citation	pseudo-: falsely attributed author	Giả mạo danh (người sau mượn danh)	ML	
+Anth.	citation	Anthologia Palatina (Greek Anthology)	Tập thơ Hy Lạp (Palatine)	ML	
+AP	citation	Anthologia Palatina	Tập thơ Hy Lạp	ML	
+IG	citation	Inscriptiones Graecae (corpus of inscriptions)	Tập bia ký Hy Lạp (IG)	ML	
+SEG	citation	Supplementum Epigraphicum Graecum	Bổ sung bia ký Hy Lạp	ML	
+OGI	citation	Orientis Graeci Inscriptiones Selectae	Bia ký Hy Lạp phương Đông tuyển chọn	ML	
+PLond.	citation	London papyri	Giấy cói London	ML	
+PTebt.	citation	Tebtunis papyri	Giấy cói Tebtunis	ML	
+PHib.	citation	Hibeh papyri	Giấy cói Hibeh	ML	
+BGU	citation	Aegyptische Urkunden (Berlin papyri)	Giấy cói Berlin	ML	
+App.	citation	Appian (historian; also "appendix")	Appian	ML	đa nghĩa, suy theo ngữ cảnh
+Polyb.	citation	Polybius (historian)	Polybius	ML	
+Arr.	citation	Arrian (historian)	Arrian	ML	
+Ptol.	citation	Ptolemy (astronomer/geographer)	Ptolemy	ML	
+Tz.	citation	Tzetzes (scholia)	Tzetzes	ML	
+Suid.	citation	Suidas (the Suda lexicon)	Suda (từ điển cổ)	ML	
+EM	citation	Etymologicum Magnum	Từ nguyên học đại thành	ML	
+Etym. M.	citation	Etymologicum Magnum	Từ nguyên học đại thành	ML	
+Zen.	citation	Zenobius (proverbs)	Zenobius (tục ngữ)	ML	
+Apostol.	citation	Apostolius (proverbs)	Apostolius (tục ngữ)	ML	
+Diogen.	citation	Diogenes Laertius (lives of philosophers)	Diogenes Laertius (truyện các triết gia)	ML	
+Stob.	citation	Stobaeus (anthology)	Stobaeus (tuyển tập)	ML	
+Max. Tyr.	citation	Maximus Tyrius	Maximus Tyrius	ML	
+Alciphr.	citation	Alciphron (letter writer)	Alciphron (thư tín)	ML	
+Ael.Dion.	citation	Aelian, De Natura Animalium (or Var. Hist.)	Aelian Về bản tính động vật	ML	
+Ael.VH	citation	Aelian, Varia Historia	Aelian Tạp sử	ML	
+Jul.	citation	Julian the Emperor	Giulianus hoàng đế	ML	
+Procl.	citation	Proclus (commentator)	Proclus	ML	
+Simpl.	citation	Simplicius (commentator)	Simplicius	ML	
+Eust.	citation	Eustathius (commentator on Homer)	Eustathius (bình chú Homer)	ML	
+sarissa	term	long pike of the Macedonian phalanx	(trường mâu Macedonia)	ML	
+peltast	term	light infantry with small shield	(bộ binh nhẹ khiên nhỏ, peltast)	ML	
+psiloi	term	skirmishers without armour	(bộ binh tản xạ không giáp, psiloi)	ML	
+hipparch	term	cavalry commander (Athens: commander of a tribe's cavalry)	(kỵ binh trưởng)	ML	
+taxiarch	term	commander of a taxis (regiment); at Athens, of a tribe	(chỉ huy một taxis/đơn vị)	ML	
+strategos	term	general, military commander at Athens	(vị tướng, tướng lãnh thành bang)	ML	
+polemarch	term	war-magistrate; at Athens, one of the archons	(chỉ huy chiến tranh; quan chiến)	ML	
+navarch	term	admiral, commander of a fleet	(tổng chỉ huy thuỷ quân, navarch)	ML	
+trierarch	term	commander/funder of a trireme (Athenian liturgy)	(người đứng ra điều phối một trireme)	ML	1889 gọi là liturgy: nghĩa vụ công
+penteconter	term	fifty-oared ship	(tàu 50 tay chèo)	ML	
+quinquereme	term	warship with five rowers per bank	(tàu chiến 5 tay chèo mỗi dãy)	ML	
+epibatae	term	marines (soldiers on shipboard)	(thuỷ binh tác chiến trên tàu)	ML	
+paralus	term	state messenger-ship of Athens	(tàu quốc tế tín của Athens, Paralus)	ML	
+catapult	term	siege engine hurling stones/darts	(máy bắn đá)	ML	
+ballista	term	engine hurling bolts/stones	(máy bắn nỏ lớn)	ML	
+battering-ram	term	siege engine for smashing walls	(máy phá thành, cừu phá tường)	ML	
+outpost	term	advanced guard post	(trạm gác tiền phương)	ML	
+forage	term	searching for provisions; food for horses	(lương thảo; đi tìm lương)	ML	
+encamp	term	to pitch a camp	(lập trại)	ML	
+rampart	term	earthen defensive wall	(luỹ đất)	ML	
+palisade	term	fence of stakes	(hàng cọc phòng thủ)	ML	
+sally	term	rushing out from a besieged place	(xuất kích từ trong thành)	ML	
+muster	term	roll-call of troops; assembly	tập kết quân, điểm binh	ML	đa nghĩa, suy theo ngữ cảnh
+double-pay	term	special pay of picked troops	(lương gấp đôi, binh chủ lực)	ML	
+victuals	term	provisions, food supplies	(tiền lương thực; thực phẩm)	ML	1889 thường viết "victuals"
+provisions	term	food supplies; also forethought (Providence)	(lương thực)	ML	
+panoply	term	full armour; complete equipment	(giáp trụ đầy đủ)	ML	
+greaves	term	shin armour	(bộ giáp ống chân)	ML	
+cuirass	term	breastplate	(giáp ngực)	ML	
+corslet	term	breastplate (1889 spelling)	(giáp ngực, corslet)	ML	1889 viết "corslet"
+target	term	small round shield (1889 usage)	(khiên tròn nhỏ)	ML	1889 nghĩa khiên, không phải mục tiêu
+dicast	term	Athenian juryman in the popular courts	(bồi thẩm dân sự Athens, dicast)	ML	
+dicastery	term	Athenian popular court	(toà bồi thẩm Athens)	ML	
+heliast	term	juryman of the Heliaea	(bồi thẩm toà Heliaea)	ML	
+prytanis	term	presiding member of the Athenian council	(chủ toạ hội đồng, prytanis)	ML	
+prytany	term	one-tenth of the Athenian year, a tribe's presidency	(kỳ chủ trì bộ lạc, 1/10 năm Athens)	ML	
+thesmothete	term	one of six junior archons at Athens	(sáu quan xét xử, thesmothetae)	ML	
+eponymous archon	term	the archon who gave his name to the year	(quan cầm quyền đặt tên năm)	ML	
+basileus archon	term	the archon-king at Athens (religious duties)	(quan vương phụ trách tế lễ)	ML	
+boule	term	council, at Athens the Council of 500	(hội đồng, tại Athens là Hội đồng 500)	ML	
+liturgy	term	at Athens: compulsory public service funded by the rich	(nghĩa vụ công do nhà giàu gánh, liturgy)	ML	KHÔNG dịch nghĩa lễ nghi trong ngữ cảnh Athens
+choregia	term	liturgy of equipping a chorus	(nghĩa vụ tài trợ đội hát múa)	ML	
+gymnasiarchy	term	liturgy of running a gymnasium	(nghĩa vụ quản lý võ trường)	ML	
+trierarchy	term	liturgy of maintaining a trireme	(nghĩa vụ lo một tàu chiến)	ML	
+eisphora	term	annual property-tax at Athens	(thuế tài sản thường niên Athens)	ML	
+metic	term	resident alien in a Greek city	(dân ngoại kiều, metic)	ML	
+isoteles	term	metic paying equal taxes with citizens	(ngoại kiều đóng thuế ngang công dân)	ML	
+proxenos	term	citizen acting as consul for another state	(công dân làm lãnh sự cho bang khác)	ML	
+graphē paranomōn	term	indictment for illegal proposals	(đơn kiện đề xuất trái luật)	ML	
+eisangelia	term	impeachment, denunciation before the council	(bản cáo trạng trước hội đồng)	ML	
+dokimasia	term	scrutiny of officials before entry to office	(thẩm tra tư cách quan viên)	ML	
+apographē	term	declaration to a magistrate; inventory	(bản khai báo quan)	ML	
+phora	term	tax-payment, tribute	(khoản cống nộp)	ML	
+philotimia	term	love of honour; ambition for public service	(sĩ diện; ham danh vọng công)	ML	
+ostrakon	term	potsherd used for ostracism votes	(mảnh gốm bỏ phiếu trục xuất)	ML	
+orgeones	term	members of a religious brotherhood at Athens	(hội viên huynh đệ tôn giáo)	ML	
+deme	term	parish/subdivision of Attica; local branch of a phratria	(xã khu Áttica; chi tộc)	ML	
+phratria	term	brotherhood, clan subdivision	(huynh đệ hội, phân chi tộc)	ML	
+phyle	term	tribe, civic subdivision of Attica	(bộ lạc dân sự Athens)	ML	
+amphictyony	term	league of neighbouring states around a sanctuary	(liên bang hàng xóm chung đền thờ)	ML	
+symmachy	term	offensive and defensive alliance	(liên minh quân sự)	ML	
+hegemony	term	leadership, headship of a league	(quyền bá chủ)	ML	
+satrap	term	Persian provincial governor	(tổng trấn Ba Tư)	ML	
+king's eye	term	Persian royal inspector	(giám sát của vua Ba Tư)	ML	
+humour	term	1889 medicine: one of the four bodily fluids	(thể dịch y học cổ: đàm, mật, huyết, phong)	ML	KHÔNG dịch "sự hài hước" trong ngữ cảnh y học
+black bile	term	melancholy humour in ancient medicine	(thể dịch mật đen, gây u sầu)	ML	
+phlegm	term	one of the four humours	(thể dịch đờm)	ML	
+flatulence	term	1889: flatulency, intestinal wind	(hơi đầy bụng, phong trướng)	ML	
+flux	term	medical: discharge, running of humours	(chứng rịn chảy thể dịch)	ML	
+catarrh	term	discharge from nose/mucous membrane	(chứng chảy dịch niêm mạc)	ML	
+colic	term	severe abdominal pain	(đau quặn bụng)	ML	
+dysentery	term	bloody flux	(lỵ ra máu)	ML	
+epilepsy	term	the "sacred disease"	(bệnh động kinh, "thánh bệnh")	ML	
+tetanus	term	spasm, convulsive tension	(co cứng, giãn co)	ML	
+apoplexy	term	sudden stroke	(chứng đột quỵ, trúng phong)	ML	
+paralysis	term	loosening, palsy	(liệt, tê liệt)	ML	
+palsy	term	1889 for paralysis	(tê liệt, liệt)	ML	1889 dùng "palsy"
+sphacelus	term	gangrene, mortification	(hoại tử)	ML	
+mortification	term	1889 medical: gangrene	(hoại tử)	ML	1889 nghĩa y học, không phải "nghĩa ô"
+erysipelas	term	inflammatory skin disease	(danh sán, bệnh đỏ da)	ML	
+carbuncle	term	anthrax boil	(nhọt đá, ung nhọt)	ML	
+ulcer	term	open sore	(loét, lở)	ML	
+poultice	term	soft healing application	(thuốc đắp mềm)	ML	
+cataplasm	term	medical poultice (1889 term)	(thuốc đắp, cataplasm)	ML	
+clyster	term	1889 medical: enema	(thuốc thụt)	ML	1889 dùng "clyster"
+fumigation	term	medical treatment by smoke/vapour	(liệu pháp hun khói)	ML	
+cauterize	term	to burn with a hot iron (medical)	(đốt, châm cứu bằng nung)	ML	
+bandage	term	medical: to bind a wound (verb common in Hp.)	(băng bó, bó bết)	ML	
+lithotomy	term	surgical removal of stone	(thuật lấy sỏi)	ML	
+dissect	term	to cut up anatomically	(giải phẫu, mổ xẻ)	ML	
+artery	term	1889/ancient: windpipe as well as artery	(khí quản; động mạch, nghĩa kép cổ)	ML	Hippocrates dùng cho cả khí quản
+vein	term	vein (blood vessel)	(tĩnh mạch, mạch)	ML	
+sinew	term	tendon, sinew	(gân)	ML	1889 viết "sinew" cho gân
+marrow	term	bone marrow	(tủy xương)	ML	
+cartilage	term	gristle	(sụn)	ML	
+membrane	term	anatomical membrane	(màng, mô)	ML	
+diaphragm	term	midriff, partition muscle	(cơ hoành, màng hoành)	ML	
+midriff	term	1889 for diaphragm	(màng hoành)	ML	1889 viết "midriff"
+gullet	term	oesophagus	(thực quản)	ML	
+oesophagus	term	gullet	(thực quản)	ML	
+larynx	term	upper windpipe	(thanh quản)	ML	
+pharynx	term	upper throat passage	(hầu, hốc họng)	ML	
+womb	term	uterus	(dạ con, tử cung)	ML	
+menses	term	monthly courses (1889 euphemism)	(kinh nguyệt)	ML	1889 viết "monthly courses"
+embryo	term	unborn offspring in womb	(phôi thai)	ML	
+conception	term	medical: becoming pregnant	(thụ thai)	ML	
+asphodel	term	lily-like plant of the meads (Homeric)	(hoa asphodel, trường sinh thảo)	ML	
+anemone	term	windflower	(hoa anemone, hoa gió)	ML	
+acanthus	term	brank-ursine, ornamental plant	(cây ông lồng, acanthus)	ML	
+mallow	term	plant of the Malvaceae	(cây cẩm quỳ, khế mặc)	ML	
+cyclamen	term	sowbread plant	(cây cyclamen)	ML	
+crocus	term	saffron plant	(cây nghệ tây)	ML	
+saffron	term	spice from crocus	(nghệ tây, nhụy hoa nghệ)	ML	
+ferula	term	giant fennel, staff plant	(cây thìa canh, khối ngọt)	ML	
+fennel	term	plant of the genus Ferula/marathon	(cây thìa là, hồi)	ML	
+anise	term	sweet-seeded plant	(cây hồi, tiểu hồi)	ML	
+dill	term	plant of the genus Anethum	(cây thìa là cỏ)	ML	
+thyme	term	aromatic herb	(cây cỏ húng)	ML	
+mint	term	aromatic herb of Mentha	(cây bạc hà)	ML	
+rue	term	bitter herb (Ruta)	(cây sương thảo đắng)	ML	
+hyssop	term	herb of the mint family	(cây ngưu tường)	ML	
+lentil	term	small legume (Phaselus/Ervum)	(đậu lăng)	ML	
+vetch	term	fodder legume	(đậu cỏ gia súc)	ML	
+lupine	term	legume of Lupinus	(đậu cẩu vừng, hạt cẩu)	ML	
+fenugreek	term	legume of Trigonella	(cây cỏ hồ lô ba)	ML	
+sesame	term	oily seed plant	(vừng, mè)	ML	
+olive	term	olive tree and fruit	(cây ô-liu, trái ô-liu)	ML	
+wild olive	term	oleaster, kotinos	(ô-liu dại)	ML	
+fig	term	ficus fruit	(quả sung)	ML	
+caprification	term	ripening figs by wild fig wasps	(thuật thụ phấn sung dại)	ML	
+vine	term	grapevine	(dây nho)	ML	
+grape	term	fruit of vine	(quả nho)	ML	
+must	term	new wine, unfermented juice	(nước nho mới, rượu non)	ML	1889 "must" = rượu non, không phải "phải"
+lees	term	sediment of wine	(cặn rượu)	ML	
+elm	term	tree of Ulmus	(cây du)	ML	
+poplar	term	tree of Populus	(cây dương)	ML	
+plane-tree	term	oriental plane, Platanus	(cây platane, kích dương)	ML	
+holm-oak	term	evergreen oak, ilex	(sồi lá nhọn, ilex)	ML	
+oak	term	quercus tree	(cây sồi)	ML	
+beech	term	Fagus tree	(cây dẻ gai, sồi dẻ)	ML	
+fir	term	coniferous Abies	(cây linh sam)	ML	
+pine	term	Pinus tree	(cây thông)	ML	
+cedar	term	Cedrus tree	(cây tuyết bách)	ML	
+cypress	term	Cupressus tree	(cây bách)	ML	
+juniper	term	Juniperus shrub	(cây tùng bách, bách xù)	ML	
+laurel	term	bay tree, Laurus	(cây nguyệt quế)	ML	
+bay-tree	term	laurel	(cây nguyệt quế)	ML	
+myrtle	term	Myrtus shrub	(cây hương nhu)	ML	
+oleander	term	rose-bay, Nerium	(cây đãi trâu, oleander)	ML	
+ivy	term	Hedera climbing plant	(cây thường xuân)	ML	
+bramble	term	thorny shrub, blackberry	(cây gai dâu, bụi gai)	ML	
+reed	term	common marsh grass	(cây sậy)	ML	
+rush	term	Juncus plant	(cây bấc)	ML	
+sedge	term	Carex grass	(cỏ bấc)	ML	
+stern	term	rear of a ship	(đuôi tàu)	ML	
+prow	term	bow of a ship	(mũi tàu)	ML	
+bow	term	front of a ship (also the weapon)	(mũi tàu)	ML	đa nghĩa, suy theo ngữ cảnh
+oar	term	rowing implement	(cái chèo)	ML	
+thole	term	oar-pin on the gunwale	(chốt chèo)	ML	
+rowlock	term	oar-crutch	(đầu chèo, khớp chèo)	ML	
+yard	term	spar carrying a sail	(xà ngang buồm)	ML	đa nghĩa với đơn vị đo; trong ngữ cảnh tàu = xà buồm
+sheet	term	rope fastening a sail's lower corner	(dây buồm, lái buồm)	ML	KHÔNG dịch "tờ giấy" trong ngữ cảnh tàu
+brail	term	rope for furling a sail	(dây cuốn buồm)	ML	
+halyard	term	rope for hoisting	(dây kéo buồm)	ML	
+ship-shed	term	covered slipway for warships (neosoikos)	(nhà che tàu, ụ tàu)	ML	
+naval station	term	fortified harbour base	(căn cứ thuỷ quân)	ML	
+convoy	term	escort of ships	(đoàn tàu có hộ tống)	ML	
+man-of-war	term	warship (1889 term)	(tàu chiến)	ML	
+merchantman	term	trading vessel	(tàu buôn)	ML	
+ballast	term	heavy loading to steady a ship	(đai đá cân tàu)	ML	
+keel	term	ship's backbone timber	(xương sống tàu, sống tàu)	ML	
+hold	term	ship's cargo space	(khoang tàu)	ML	đa nghĩa "giữ", "khoang", suy theo ngữ cảnh
+embark	term	to go on board	(lên tàu)	ML	
+disembark	term	to go ashore from ship	(xuống tàu lên bờ)	ML	
+put in	term	phrasal: to enter a harbour	(vào cập bến)	ML	
+put out to sea	term	phrasal: to leave harbour, set sail	(rời bến ra khơi)	ML	
+weigh anchor	term	to haul up the anchor	(nhổ neo)	ML	
+roadstead	term	anchorage off a port	(bến neo ngoài khơi)	ML	
+mole	term	breakwater, stone pier (1889 usage)	(đập chắn sóng, kè đá)	ML	1889 nghĩa công trình biển, không phải "nốt ruồi"
+landing-place	term	spot for disembarkation	(nơi cập bến, bến đổ bộ)	ML	
+burnt-offering	term	sacrifice wholly consumed by fire	(tế vật thiêu trọn)	ML	
+hecatomb	term	sacrifice of a hundred oxen	(tế lễ trăm bò)	ML	
+libation	term	drink-offering poured out	(lễ rót rượu cúng)	ML	
+first-fruits	term	offering of the first produce	(tế lễ mùa đầu)	ML	
+burnt-offering altar	term	altar for whole-burnt sacrifice	(bàn thờ tế thiêu)	ML	
+sanctuary	term	sacred precinct (also = asylum)	(khu đất thiêng; nơi ẩn nấp thần thánh)	ML	
+asylum	term	place of refuge under divine protection	(nơi nấp cầu thần che chở)	ML	
+hearth	term	household hearth (Hestia); also bottom of a furnace	(lò sưởi nhà, bếp thờ Hestia)	ML	
+seer	term	diviner, prophet (mantis)	(thầy bói, người đoán điềm)	ML	
+soothsayer	term	1889 for diviner/seer	(thầy bói đoán điềm)	ML	1889 dùng "soothsayer"
+augur	term	interpreter of omens from birds	(thầy giải điềm chim bay)	ML	
+omen	term	sign from the gods	(điềm báo)	ML	
+portent	term	marvel foretelling events	(điềm lạ, điềm gở)	ML	
+oracle	term	sacred response of a god; oracle-place	(lời phán thần; đền thỉnh phán)	ML	
+priestess	term	female sacred servant	(nữ tế)	ML	
+sacrificer	term	one who offers sacrifice	(người cúng tế)	ML	
+orgies	term	1889: secret rites of a cult (not modern sense)	(nghi lễ bí truyền của giáo phái)	ML	KHÔNG dịch theo nghĩa hiện đại
+idol	term	1889 neutral: image of a god	(tượng thần)	ML	KHÔNG hàm ý "ngụy thần" như tiếng Việt "thần tượng"
+image	term	statue (of a god or person)	(tượng, ảnh thần)	ML	đa nghĩa, suy theo ngữ cảnh
+daemon	term	1889: divine being, not necessarily evil	(thần linh, tinh linh)	ML	KHÔNG dịch "quỷ dữ" theo nghĩa sau
+daimon	term	= daemon: divine power	(thần linh, thiêng liêng)	ML	
+purification	term	ritual cleansing (katharmos)	(nghi lễ tẩy uế)	ML	
+scapegoat	term	pharmakos: one driven out to bear guilt	(con dê gánh tội, người gánh ô dịch)	ML	
+paean	term	hymn of thanksgiving to Apollo	(bài thánh ca tạ ơn Apollo)	ML	
+dithyramb	term	wild choral hymn to Dionysus	(bài hợp xướng Dionysus)	ML	
+choragus	term	chorus-leader; provider of a chorus at Athens	(đội trưởng hợp xướng; người tài trợ đội hát)	ML	
+impious	term	wanting in duty to gods	(bất kính thần)	ML	
+sacrilege	term	robbery of sacred things	(tội phạm thánh, trộm vật thiêng)	ML	
+consecrate	term	to make sacred, dedicate	(thánh hoá, dâng hiến)	ML	
+tithe	term	ten-percent sacred due	(số dâng một phần mười)	ML	
+curse	term	ara: imprecation	(lời nguyền, lời chúc dữ)	ML	
+prayer	term	vow or entreaty to gods	(lời khấn nguyện, lời cầu)	ML	
+mysteries	term	secret initiation rites (Eleusinian etc.)	(nghi bí truyền, đạo bí nhiệm)	ML	
+initiate	term	one admitted to the mysteries	(người được truyền đạo bí)	ML	
+uninitiate	term	one not admitted to the mysteries	(người chưa truyền đạo bí)	ML	
+festal	term	adj. of festival	(thuộc lễ hội)	ML	
+demagogue	term	1889 originally neutral: leader of the people	(người dẫn dắt dân chúng)	ML	1889 chưa hàm ý xấu như hiện đại
+rhetor	term	orator, public speaker	(diễn giả, nhà hùng biện)	ML	
+sophist	term	1889: professional teacher of rhetoric	(nhà sư phạm dạy hùng biện)	ML	trong Plato thường mang nghĩa xấu: kẻ jáo biện
+sophistry	term	specious reasoning	(nghệ thuật ngụy biện)	ML	
+eristic	term	art of disputation, contentious reasoning	(thuật tranh biện)	ML	
+dialectic	term	art of question and answer	(thuật biện chứng hỏi đáp)	ML	
+syllogism	term	formal inference of Aristotle	(tam đoạn luận)	ML	
+premiss	term	1889 spelling of premise	(tiền đề)	ML	1889 viết "premiss"
+enthymeme	term	rhetorical syllogism	(tam đoạn luận hùng biện)	ML	
+epideictic	term	rhetoric of display, ceremonial oratory	(hùng biện phô diễn)	ML	
+forensic	term	rhetoric of the law-courts	(hùng biện toà án)	ML	
+deliberative	term	rhetoric of the assembly	(hùng biện hội đồng)	ML	
+panegyric	term	public speech of praise	bài văn tán dương	ML	
+invective	term	abusive speech	(bài văn mắng chửi, đả kích)	ML	
+slander	term	false damaging statement	(vu khống)	ML	
+statesman	term	skilled political leader	(chính khách, nhà chính trị)	ML	
+constitution	term	politeia: ordered form of government	(nền chính thể, hiến pháp)	ML	
+politeia	term	constitution, citizenship, way of life	(chính thể, tư cách công dân)	ML	
+oligarchy	term	rule of the few	(chính thể ít người)	ML	
+tyranny	term	rule of an absolute master (originally neutral in Greek)	(chính thể độc tài; quyền độc tài)	ML	
+monarchy	term	rule of one	(chính thể một người)	ML	
+aristocracy	term	rule of the best	(chính thể quý tộc)	ML	
+democracy	term	rule of the people	(chính thể dân chủ)	ML	
+faction	term	party strife (stasis)	(phe phái, bè lũ)	ML	
+sedition	term	factional revolt	(nổi loạn phe nhóm)	ML	
+stasis	term	civil strife, faction	(nội loạn, tranh phe)	ML	
+exile (verb)	term	to send into banishment	(biển đày, trục xuất)	ML	
+banishment	term	exile, state of being exiled	(sự bị đầy, đi đày)	ML	ML dùng "banishment" cho exile
+revolution	term	change of constitution	(cải đổi chính thể)	ML	
+commonwealth	term	the body politic (1889 usage)	(quốc thể, chính thể chung)	ML	
+tribute	term	payment to a superior power	(cống vật, khoản cống)	ML	
+hostage	term	person given as pledge	(con tin)	ML	
+embassy	term	mission of ambassadors	(phái bộ, sứ bộ)	ML	
+envoy	term	one sent on a mission	(sứ giả, người đi sứ)	ML	
+herald	term	messenger with staff (keryx)	(sứ giả tuyên bố, người đưa tin)	ML	

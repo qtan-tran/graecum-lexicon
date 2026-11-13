@@ -18,11 +18,20 @@ Từ điển học Hy Lạp cổ – tiếng Việt: dự án dịch *An Interme
 graecum-lexicon/
 ├── docs/                # DECISIONS (protocol D1-D13) · ROADMAP · FORMAT-SPEC · COPYRIGHT · TRANSLIT
 ├── data/
-│   ├── termbase-grammar.tsv   # term base markers ngữ pháp EN→VN (luật cứng)
+│   ├── termbase-grammar.tsv   # term base markers/thuật ngữ/citations EN→VN (luật cứng)
 │   ├── decoder-1889.tsv       # cẩm nang dịch giả: tiếng Anh Victorian → nghĩa hiện đại → VI
+│   ├── source/                # ml-senses.tsv (ingest local, KHÔNG commit)
 │   └── batches/               # các lô dịch P0-P3 + manifest (coverage assertion)
-└── tools/linter.py      # QA gates tự động (mã hoá, termbase, alignment, coverage)
+└── tools/
+    ├── linter.py              # QA gates tự động (mã hoá, termbase, alignment, coverage)
+    ├── ingest_liddell.py      # parse TEI Middle Liddell → data/source/ml-senses.tsv
+    └── translit_gen.py        # generator phiên âm theo docs/TRANSLIT.md (kiểm thử tự động)
 ```
+
+## Tools
+
+- **`tools/ingest_liddell.py`**: parse bản TEI Middle Liddell (PD) thành `data/source/ml-senses.tsv` (7 cột, sense-ID theo phân tầng gốc, schema: `docs/FORMAT-SPEC.md` §4.1). Chạy: `python3 tools/ingest_liddell.py --input <file.xml> --output data/source/ml-senses.tsv`. File TEI nguồn và TSV output không commit (`.gitignore`).
+- **`tools/translit_gen.py`**: sinh phiên âm tiếng Việt từ headword Greek theo bảng `docs/TRANSLIT.md` (thuần hệ thống, không ngoại lệ). Tự kiểm thử: `python3 tools/translit_gen.py --test` (15/15). Từ P0 linter dùng generator để đối chiếu tên riêng trong `vi_gloss`.
 
 ## QA tự động
 
