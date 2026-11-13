@@ -1,0 +1,30 @@
+key	type	meaning_mod	xlate_vi	src	note
+c. gen.	marker	governs the genitive case	+ sở hữu cách	ML/LSJ	
+c. dat.	marker	governs the dative case	+ với cách (dative)	ML/LSJ	
+c. acc.	marker	governs the accusative case	+ đối cách	ML/LSJ	
+c. acc. et gen.	marker	governs the accusative and genitive	+ đối cách và sở hữu cách	ML/LSJ	
+act.	marker	active voice	chủ động	ML/LSJ	
+mid.	marker	middle voice	trung thái	ML/LSJ	
+pass.	marker	passive voice	bị động	ML/LSJ	
+mid./pass.	marker	middle or passive	trung/bị động	ML/LSJ	
+pres.	marker	present tense	hiện tại	ML/LSJ	
+impf.	marker	imperfect tense	quá khứ đơn (imperfect)	ML/LSJ	
+aor.	marker	aorist tense	aorist	ML/LSJ	
+fut.	marker	future tense	tương lai	ML/LSJ	
+perf.	marker	perfect tense	hoàn thành	ML/LSJ	
+intr.	marker	intransitive	nội động	ML/LSJ	
+tr.	marker	transitive	ngoại động	ML/LSJ	
+absol.	marker	absolute use	độc lập	ML/LSJ	
+metaph.	marker	metaphorically	(nghĩa bóng)	ML/LSJ	
+in later Greek	marker	Hellenistic period, including NT	(Hellenistic / Kinh Thánh)	ML/LSJ	cũng gặp dạng in NT
+of persons	marker	restricted to persons	(chỉ người)	ML/LSJ	
+of things	marker	restricted to things	(chỉ vật)	ML/LSJ	
+mostly	marker	for the most part	thường	ML/LSJ	
+rare	marker	rarely attested	hiếm	ML/LSJ	
+epithet	marker	standing as epithet	tính ngữ chỉ định	ML/LSJ	
+sq. (sub)	marker	followed by (a construction)	theo sau là	ML/LSJ	LSJ viết sub hoặc sq.
+v.	marker	vide, see	xem	ML/LSJ	
+v. sup.	marker	see above	xem trên	ML/LSJ	
+v. infr.	marker	see below	xem dưới	ML/LSJ	
+i.q.	marker	idem quod, the same as	đồng nghĩa với	ML/LSJ	toán tử Latin, không dịch như văn
+cf.	marker	confer, compare	đối chiếu	ML/LSJ	
