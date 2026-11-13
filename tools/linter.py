@@ -6,6 +6,8 @@ Cac nhom kiem tra (docs/ROADMAP.md):
   B. Termbase        : schema, key duy nhat, xlate_viet du; batch vi_gloss khong chua marker EN
   C. Batches         : schema, sense_id day du + duy nhat, status enum, nguyen tac khong-bia
   D. Coverage        : moi headword thuoc dung 1 batch, file ton tai, tong khop khai bao
+  E. Translit        : ten rieng (headword chu HOA Greek) trong vi_gloss phai dung
+                       phien am chuan cua tools/translit_gen.py
 
 Exit code 1 neu co bat ky vi pham nao. CI chay file nay, bao do = chan merge.
 Chi dung stdlib Python 3.9+.
@@ -73,17 +75,33 @@ def load_tsv(path, schema, rep, gate):
 
 # ---------------------------------------------------------------- gates
 
+def _drop_column(text, col):
+    """Bo cot thu <col> khoi moi dong TSV (giu header nguyen ven)."""
+    out = []
+    for line in text.split("\n"):
+        cells = line.split("\t")
+        if len(cells) > col:
+            del cells[col]
+        out.append("\t".join(cells))
+    return "\n".join(out)
+
+
 def gate_encoding(root, rep):
     """A. Sweep ky tu tren moi file du lieu + docs.
 
     data/source/ (trich nguyen van TEI, en_gloss giu nguyen ban 1889) khong
-    duoc quet: em dash cua ban goc la cua nguon PD, khong phai loi bien soan."""
+    duoc quet: em dash cua ban goc la cua nguon PD, khong phai loi bien soan.
+    Trong data/batches/*.tsv, cot en_gloss cung la nguyen van 1889 nen chi
+    giu lai de doi chieu, khong quet ky tu; cot con lai (vi_gloss...) van
+    phai sach."""
     src_dir = root / "data" / "source"
     targets = [p for p in (root / "data").rglob("*.tsv") if src_dir not in p.parents] \
         + list((root / "docs").glob("*.md"))
     for p in sorted(targets):
         rel = p.relative_to(root)
         text = p.read_text(encoding="utf-8")
+        if p.parent.name == "batches" and p.name != "manifest.tsv":
+            text = _drop_column(text, BATCH_SCHEMA.index("en_gloss"))
         if FFFD in text:
             rep.fail("A", rel, "chua U+FFFD")
         if EM_DASH in text:
@@ -100,8 +118,14 @@ def gate_encoding(root, rep):
 
 
 def _marker_regex(keys):
+    """Regex tim marker EN trong vi_gloss.
+
+    Lookaround dung lop ky tu Unicode (ky tu chu cai), de khong flag n.
+    trong "con..." hay chu Viet co dau. Viet tat tieng Viet "v.v." (van van)
+    duoc loai khoi chuoi quet o gate B truoc khi tim marker, de v. thu hai
+    cua no khong bi flag nhe."""
     parts = sorted((re.escape(k) for k in keys), key=len, reverse=True)
-    return re.compile("(?<![A-Za-z])(%s)(?![A-Za-z])" % "|".join(parts))
+    return re.compile(r"(?<![^\W\d_])(%s)(?![^\W\d_])" % "|".join(parts))
 
 
 def gate_termbase(root, rep):
@@ -122,12 +146,13 @@ def gate_termbase(root, rep):
     rep.ok("B", "termbase", "termbase %d dong + decoder hop le" % len(keys))
 
     pat = _marker_regex(keys)
+    vn_etc = re.compile(r"v\.v\.")
     for b in sorted((root / "data" / "batches").glob("*.tsv")):
         if b.name == "manifest.tsv":
             continue
         rows = load_tsv(b, BATCH_SCHEMA, rep, "B")
         for i, r in enumerate(rows, start=2):
-            m = pat.search(r["vi_gloss"])
+            m = pat.search(vn_etc.sub("    ", r["vi_gloss"]))
             if m:
                 rep.fail("B", b.name,
                          "dong %d vi_gloss chua marker EN %r (phai dung xlate_viet)" % (i, m.group(0)))
@@ -191,6 +216,48 @@ def gate_coverage(root, rep, batches):
     rep.ok("D", "coverage", "%d headwords, %d batch" % (len(seen), len(batches)))
 
 
+# ---------------------------------------------------------------- gate E
+
+def _strip_marks(text):
+    """Bo dau thanh (combining marks) sau khi NFD."""
+    return "".join(c for c in unicodedata.normalize("NFD", text)
+                   if not unicodedata.combining(c))
+
+
+def gate_translit(root, rep, batches):
+    """E. Ten rieng phai dung phien am chuan cua generator.
+
+    Voi moi dong batch co headword bat dau bang chu Greek HOA (ten rieng):
+    expected = transliterate(headword). Neu dang khong-dau, khong-hoa cua
+    expected xuat hien trong vi_gloss (cung duoc go dau + viet thuong) ma
+    expected khong xuat hien dung nguyen ven trong vi_gloss thi vi pham:
+    ten rieng duoc nhac den nhung phien am sai."""
+    try:
+        import translit_gen
+    except ImportError:
+        rep.fail("E", "tools/translit_gen.py",
+                 "khong tim thay module generator phien am")
+        return
+    checked = 0
+    for b in batches:
+        rows = load_tsv(b, BATCH_SCHEMA, rep, "E")
+        for i, r in enumerate(rows, start=2):
+            hw = r["headword"]
+            if not hw or not hw[0].isalpha() or not hw[0].isupper():
+                continue
+            expected = translit_gen.transliterate(hw)
+            if not expected:
+                continue
+            skel = _strip_marks(expected).lower()
+            gloss_skel = _strip_marks(r["vi_gloss"]).lower()
+            if skel and skel in gloss_skel:
+                checked += 1
+                if expected not in r["vi_gloss"]:
+                    rep.fail("E", b.name,
+                             "dong %d ten rieng %r khac phien am chuan %r" % (i, hw, expected))
+    rep.ok("E", "translit", "%d ten rieng doi chieu generator" % checked)
+
+
 # ---------------------------------------------------------------- main
 
 def main(argv=None):
@@ -205,6 +272,7 @@ def main(argv=None):
     gate_termbase(root, rep)
     batches = gate_batches(root, rep)
     gate_coverage(root, rep, batches)
+    gate_translit(root, rep, batches)
     print()
     if rep.is_clean:
         print("RESULT: PASS (0 vi pham)")

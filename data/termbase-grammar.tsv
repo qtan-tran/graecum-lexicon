@@ -32,7 +32,7 @@ gen.	marker	the genitive case	sở hữu cách	ML/LSJ
 dat.	marker	the dative case	với cách (dative)	ML/LSJ	
 acc.	marker	the accusative case	đối cách	ML/LSJ	
 voc.	marker	the vocative case	hô cách	ML/LSJ	
-subj.	marker	subjunctive mood	cách suy nghi (subjunctive)	ML/LSJ	
+subj.	marker	subjunctive mood	thức giả định (subjunctive)	ML/LSJ	
 opt.	marker	optative mood	cách ước (optative)	ML/LSJ	
 imperat.	marker	imperative	mệnh lệnh	ML/LSJ	
 infin.	marker	infinitive	nguyên mẫu	ML/LSJ	
@@ -785,3 +785,11 @@ hostage	term	person given as pledge	(con tin)	ML
 embassy	term	mission of ambassadors	(phái bộ, sứ bộ)	ML	
 envoy	term	one sent on a mission	(sứ giả, người đi sứ)	ML	
 herald	term	messenger with staff (keryx)	(sứ giả tuyên bố, người đưa tin)	ML	
+c. inf.	marker	governs the infinitive	+ động từ nguyên mẫu	ML/LSJ	
+c. acc. et inf.	marker	governs the accusative and infinitive	+ đối cách và động từ nguyên mẫu	ML/LSJ	
+comp.	marker	comparative degree	so sánh hơn	ML/LSJ	
+Sup.	marker	superlative degree	so sánh nhất	ML/LSJ	khác "sup." (ở trên, tham chiếu)
+sub.	marker	supply (a word to be understood mentally)	(ngầm hiểu)	ML/LSJ	
+periphr.	marker	periphrasis, roundabout expression	(cách nói vòng)	ML/LSJ	
+Pron.	marker	pronoun	đại từ	ML/LSJ	
+Art.	marker	the (definite) article	mạo từ xác định	ML/LSJ	

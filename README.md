@@ -23,7 +23,7 @@ graecum-lexicon/
 │   ├── source/                # ml-senses.tsv (ingest local, KHÔNG commit)
 │   └── batches/               # các lô dịch P0-P3 + manifest (coverage assertion)
 └── tools/
-    ├── linter.py              # QA gates tự động (mã hoá, termbase, alignment, coverage)
+    ├── linter.py              # QA gates tự động (mã hoá, termbase, alignment, coverage, phiên âm)
     ├── ingest_liddell.py      # parse TEI Middle Liddell → data/source/ml-senses.tsv
     └── translit_gen.py        # generator phiên âm theo docs/TRANSLIT.md (kiểm thử tự động)
 ```
@@ -31,7 +31,7 @@ graecum-lexicon/
 ## Tools
 
 - **`tools/ingest_liddell.py`**: parse bản TEI Middle Liddell (PD) thành `data/source/ml-senses.tsv` (7 cột, sense-ID theo phân tầng gốc, schema: `docs/FORMAT-SPEC.md` §4.1). Chạy: `python3 tools/ingest_liddell.py --input <file.xml> --output data/source/ml-senses.tsv`. File TEI nguồn và TSV output không commit (`.gitignore`).
-- **`tools/translit_gen.py`**: sinh phiên âm tiếng Việt từ headword Greek theo bảng `docs/TRANSLIT.md` (thuần hệ thống, không ngoại lệ). Tự kiểm thử: `python3 tools/translit_gen.py --test` (15/15). Từ P0 linter dùng generator để đối chiếu tên riêng trong `vi_gloss`.
+- **`tools/translit_gen.py`**: sinh phiên âm tiếng Việt từ headword Greek theo bảng `docs/TRANSLIT.md` (thuần hệ thống, không ngoại lệ). Tự kiểm thử: `python3 tools/translit_gen.py --test` (15/15). Linter dùng generator làm cổng E: tên riêng trong `vi_gloss` phải khớp dạng sinh từ headword.
 
 ## QA tự động
 
@@ -41,6 +41,7 @@ Linter chạy trong CI (`.github/workflows/lint.yml`): lô nào báo đỏ thì 
 python3 tools/linter.py
 ```
 
+Linter có 5 cổng tự động: **A** sweep ký tự (NFC, 0 U+FFFD, 0 em dash ngoài cột en_gloss nguyên văn 1889) · **B** termbase + decoder + không marker English sót trong gloss VI · **C** schema/alignment batch · **D** coverage manifest · **E** phiên âm tên riêng khớp generator.
 5 cổng QA mỗi lô (chi tiết `docs/ROADMAP.md`): termbase enforcement · sense-ID alignment · back-translation spot-check · sweep ký tự · gold-set corpus.
 
 ## Nguyên tắc cốt lõi

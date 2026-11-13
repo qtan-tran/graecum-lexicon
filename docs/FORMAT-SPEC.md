@@ -14,7 +14,7 @@ c. gen.	marker	governs the genitive case	+ sở hữu cách	ML/LSJ
 - `meaning_mod`: diễn giải tiếng Anh hiện đại (đã kiểm định).
 - `xlate_vi`: dịch tiếng Việt chuẩn, áp dụng 100%.
 - `src`: `ML | LSJ | decoder` (nghĩa kiểm định qua nguồn nào).
-- Mục tiêu Phase T: ≥ 500 dòng (seed hiện tại là phần lõi; bổ sung qua cổng duyệt).
+- Mục tiêu Phase T ≥ 500 dòng: ĐÃ ĐẠT, 794 dòng dữ liệu (285 marker, 281 term, 228 citation); bổ sung tiếp qua cổng duyệt.
 
 ## 2. Cẩm nang dịch giả: `data/decoder-1889.tsv`
 
@@ -22,7 +22,7 @@ Schema giống termbase (`key,type,meaning_mod,xlate_vi,src,note`), `type` = `id
 
 ## 3. Phiên âm tên riêng: `docs/TRANSLIT.md`
 
-Không còn file whitelist. Mọi tên riêng sinh từ bảng hệ thống letter-faithful trong `docs/TRANSLIT.md` (không ngoại lệ, không register). Từ P0, linter kiểm tra bằng generator: sinh dạng kỳ vọng từ headword Greek rồi so với tên dùng trong `vi_gloss`; sai khác = từ chối lô.
+Không còn file whitelist. Mọi tên riêng sinh từ bảng hệ thống letter-faithful trong `docs/TRANSLIT.md` (không ngoại lệ, không register). Linter kiểm tra bằng generator, hiện thực từ Phase T pilot: cổng E trong `tools/linter.py` sinh dạng kỳ vọng từ headword Greek (chữ HOA) rồi so với tên dùng trong `vi_gloss`; sai khác = từ chối lô.
 
 ## 4. Lô dịch: `data/batches/<PHASE>-<cluster>.tsv`
 
@@ -33,7 +33,7 @@ headword	sense_id	level	en_gloss	vi_gloss	citations	status	src
 
 - `headword`: Greek NFC, giữ nguyên bản gốc.
 - `sense_id`: `<latinized-headword>#<Roman>.<number>` (ví dụ `logos#II.3`); do parser TEI sinh, người dịch không tự đánh số.
-- `level`: `I | II | III | A | B | C` (phân tầng sense gốc, D9).
+- `level`: giữ nguyên cột `level` từ source TSV ingest (§4.1), tức attribute `n` gốc của sense trong TEI: `0` (sense không đánh số), số con (`1`-`5`...), Roman (`I`-`VIII`), chữ (`A`-`C`, `a`-`c`), hoặc `xref`. Phân cấp đầy đủ nằm trong `sense_id` (D9).
 - `en_gloss`: nguyên bản English 1889 (không sửa).
 - `vi_gloss`: bản dịch; không chắc → giữ English trong ngoặc + `status = chua-dich`.
 - `citations`: giữ nguyên viết tắt Latin (D3).
@@ -68,5 +68,5 @@ P0-core	P0-core.tsv	100	P0	open
 
 ## 6. Quy tắc ký tự (cổng 4)
 
-- NFC toàn bộ; 0 U+FFFD; 0 em dash trong nội dung; apostrophe Hy Lạp là ’ (U+2019); không CJK/Cyrillic ngoài chủ đích.
+- NFC toàn bộ; 0 U+FFFD; 0 em dash trong nội dung biên soạn (`vi_gloss`, termbase, decoder, docs, README); apostrophe Hy Lạp là ’ (U+2019); không CJK/Cyrillic ngoài chủ đích. Cột `en_gloss` nguyên văn 1889 (trong batch và `data/source/`) giữ em dash của bản gốc: linter loại cột này và thư mục `data/source/` khỏi sweep.
 - Greek giữ đủ dấu (accent + breathing); phiên âm chỉ là thông tin phụ, sinh từ bảng docs/TRANSLIT.md.
