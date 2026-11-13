@@ -28,3 +28,91 @@ v. sup.	marker	see above	xem trên	ML/LSJ
 v. infr.	marker	see below	xem dưới	ML/LSJ	
 i.q.	marker	idem quod, the same as	đồng nghĩa với	ML/LSJ	toán tử Latin, không dịch như văn
 cf.	marker	confer, compare	đối chiếu	ML/LSJ	
+gen.	marker	the genitive case	sở hữu cách	ML/LSJ	
+dat.	marker	the dative case	với cách (dative)	ML/LSJ	
+acc.	marker	the accusative case	đối cách	ML/LSJ	
+voc.	marker	the vocative case	hô cách	ML/LSJ	
+subj.	marker	subjunctive mood	cách suy nghi (subjunctive)	ML/LSJ	
+opt.	marker	optative mood	cách ước (optative)	ML/LSJ	
+imperat.	marker	imperative	mệnh lệnh	ML/LSJ	
+infin.	marker	infinitive	nguyên mẫu	ML/LSJ	
+part.	marker	participle	phân từ	ML/LSJ	
+plupf.	marker	pluperfect	quá khứ hoàn thành	ML/LSJ	
+2 aor.	marker	second aorist	aorist II	ML/LSJ	
+fut. perf.	marker	future perfect	tương lai hoàn thành	ML/LSJ	
+impers.	marker	impersonal	phi nhân xưng	ML/LSJ	
+reflex.	marker	reflexive	phản thân	ML/LSJ	
+recip.	marker	reciprocal	tương hỗ	ML/LSJ	
+dual	marker	dual number	số đôi (dual)	ML/LSJ	
+sg.	marker	singular	số ít	ML/LSJ	
+pl.	marker	plural	số nhiều	ML/LSJ	
+indecl.	marker	indeclinable	bất biến cách	ML/LSJ	
+in comp.	marker	in compounds	trong từ ghép	ML/LSJ	
+in derv.	marker	in derivatives	trong từ phái sinh	ML/LSJ	
+as pr. n.	marker	as proper name	như tên riêng	ML/LSJ	
+subst.	marker	used as noun	dùng như danh từ	ML/LSJ	
+as Adj.	marker	used as adjective	dùng như tính từ	ML/LSJ	
+as Adv.	marker	used as adverb	dùng như phó từ	ML/LSJ	
+lit.	marker	literally	(nghĩa đen)	ML/LSJ	
+fig.	marker	figuratively	(nghĩa bóng)	ML/LSJ	song song với metaph.
+transf.	marker	transferred sense	(nghĩa chuyển)	ML/LSJ	
+orig.	marker	originally	(nguyên nghĩa)	ML/LSJ	
+opp.	marker	opposed to	đối lập với	ML/LSJ	
+dist. fr.	marker	distinguished from	phân biệt với	ML/LSJ	
+freq.	marker	frequently	thường gặp	ML/LSJ	
+esp.	marker	especially	đặc biệt là	ML/LSJ	
+sim.	marker	similarly	tương tự	ML/LSJ	
+genr.	marker	generally	(nói chung)	ML/LSJ	
+w. ind.	marker	with indicative	+ mệnh đề chỉ định (indicative)	ML/LSJ	
+w. subj.	marker	with subjunctive	+ cách suy nghi (subjunctive)	ML/LSJ	
+w. inf.	marker	with infinitive	+ nguyên mẫu	ML/LSJ	
+w. part.	marker	with participle	+ phân từ	ML/LSJ	
+poet.	marker	poetic	(thi ca)	ML/LSJ	
+prov.	marker	proverbial	(tục ngữ)	ML/LSJ	
+ep.	marker	epic	(sử thi)	ML/LSJ	
+lyr.	marker	lyric	(thơ trữ tình)	ML/LSJ	
+trag.	marker	tragedy	(bi kịch)	ML/LSJ	
+com.	marker	comedy	(hài kịch)	ML/LSJ	
+Att.	marker	Attic dialect	(phương ngữ Attic)	ML/LSJ	tránh nhầm attic (gác xép)
+Dor.	marker	Doric dialect	(phương ngữ Doric)	ML/LSJ	
+Ion.	marker	Ionic dialect	(phương ngữ Ionic)	ML/LSJ	
+hell.	marker	Hellenistic	(Hellenistic)	ML/LSJ	
+NT	marker	New Testament	(Tân Ước)	ML/LSJ	register marker, KHÔNG áp dụng cho citations
+LXX	marker	Septuagint	(Bản Bảy Mươi)	ML/LSJ	register marker
+pap.	marker	papyri	(giấy cói)	ML/LSJ	
+inscr.	marker	inscriptions	(bản khắc)	ML/LSJ	
+Sch.	marker	scholion, ancient commentary	(chú giải cổ)	ML/LSJ	
+i.e.	marker	that is	tức là	ML/LSJ	
+e.g.	marker	for example	ví dụ	ML/LSJ	
+s.v.	marker	sub verbo, under the entry	tại mục từ	ML/LSJ	
+q.v.	marker	quod vide, which see	xem mục đó	ML/LSJ	
+phalanx	term	massed heavy-infantry formation	phalanx (đội hình khối bộ binh nặng)	ML	giữ nguyên Latinh hóa + chú giải
+hoplite	term	heavily-armed foot-soldier	hoplite (bộ binh hạng nặng)	ML	
+heavy-armed	term	fully armoured (troops)	(quân) trang bị giáp đầy	ML	
+light-armed	term	unarmoured skirmishing troops	(quân) trang bị nhẹ	ML	
+skirmisher	term	soldier who fights at range	lính phóng tầm xa	ML	
+trireme	term	warship with three banks of oars	tàu chiến ba hàng chèo	ML	
+mercenary	term	soldier serving for pay	lính đánh thuê	ML	
+garrison	term	troops stationed in a place	quân trú đóng	ML	
+siege	term	investment of a city	cuộc vây hãm	ML	
+trophy	term	victory monument on the field	đài kỷ niệm chiến thắng	ML	nghĩa quân sự, KHÔNG dịch cúp
+truce	term	armistice	hiệp ngừng chiến	ML	
+rout	term	disorderly flight	cuộc tan rã	ML	
+booty	term	war plunder	chiến lợi phẩm	ML	
+indictment	term	formal written charge	bản khuyết cáo	ML	graphe cua Athen
+lawsuit	term	action at law	vụ kiện	ML	
+witness	term	person giving testimony	nhân chứng	ML	
+testimony	term	evidence given in court	lời chứng	ML	
+jury	term	panel of citizen judges (dicasts)	hội thẩm (bồi thẩm)	ML	Athen: dicastery
+court	term	lawcourt, dikasterion	toà án	ML	
+magistrate	term	public official (archon, etc.)	quan chức	ML	
+decree	term	resolution of assembly or council	nghị định	ML	psephisma
+statute	term	written law, nomos	luật thành văn	ML	
+fine	term	monetary penalty	phạt tiền	ML	
+ostracism	term	ten-year exile by potsherd vote	lưu đày theo phiếu gốm (ostracism)	ML	
+exile	term	banishment	lưu đày	ML	
+confiscation	term	seizure of property	tịch thu	ML	
+surety	term	guarantor, bail	người bảo lãnh	ML	
+guardian	term	legal protector (kyrios)	người giám hộ	ML	
+inheritance	term	estate passing to heirs	di sản	ML	
+amnesty	term	general pardon	đại xá	ML	
